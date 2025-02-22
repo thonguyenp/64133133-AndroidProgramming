@@ -90,6 +90,7 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="XuLyNhan"
             android:text="*" />
 
         <Button
@@ -97,6 +98,7 @@
             android:layout_margin="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="XuLyChia"
             android:text="/" />
 
 

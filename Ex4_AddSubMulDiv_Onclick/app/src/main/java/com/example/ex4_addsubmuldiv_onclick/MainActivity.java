@@ -13,6 +13,10 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText editA;
+    EditText editB;
+    EditText editKQ;
+    Button btnCong, btnTru, btnNhan, btnChia;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,33 +27,60 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        TimDieuKhien();
+    }
+
+    void TimDieuKhien()
+    {
+        editA = findViewById(R.id.editA);
+        editB = findViewById(R.id.editB);
+        editKQ = findViewById(R.id.editKQ);
+        btnCong = findViewById(R.id.btnCong);
+        btnTru = findViewById(R.id.btnTru);
+        btnNhan = findViewById(R.id.btnNhan);
+        btnChia = findViewById(R.id.btnChia);
     }
 
     public void XuLyCong(View view)
     {
-        Button btnCong = findViewById(R.id.btnCong);
-        EditText editA = findViewById(R.id.editA);
-        EditText editB = findViewById(R.id.editB);
-        EditText editKQ = findViewById(R.id.editKQ);
+        float a = Float.parseFloat(editA.getText().toString());
+        float b = Float.parseFloat(editB.getText().toString());
 
-        int a = Integer.parseInt(editA.getText().toString());
-        int b = Integer.parseInt(editB.getText().toString());
-
-        int kq = a + b;
+        float kq = a + b;
         editKQ.setText(kq + "");
     }
 
     public void XuLyTru(View view)
     {
-        Button btnTru = findViewById(R.id.btnTru);
-        EditText editA = findViewById(R.id.editA);
-        EditText editB = findViewById(R.id.editB);
-        EditText editKQ = findViewById(R.id.editKQ);
+        float a = Float.parseFloat(editA.getText().toString());
+        float b = Float.parseFloat(editB.getText().toString());
 
-        int a = Integer.parseInt(editA.getText().toString());
-        int b = Integer.parseInt(editB.getText().toString());
-
-        int kq = a - b;
+        float kq = a - b;
         editKQ.setText(kq + "");
+    }
+
+    public void XuLyNhan(View view)
+    {
+        float a = Float.parseFloat(editA.getText().toString());
+        float b = Float.parseFloat(editB.getText().toString());
+
+        float kq = a * b;
+        editKQ.setText(kq + "");
+    }
+
+    public void XuLyChia(View view)
+    {
+        float a = Float.parseFloat(editA.getText().toString());
+        float b = Float.parseFloat(editB.getText().toString());
+
+        if (b == 0)
+        {
+            editKQ.setText("Không thể chia cho 0");
+        }
+        else
+        {
+            float kq = a/b;
+            editKQ.setText(kq + "");
+        }
     }
 }
