@@ -26,6 +26,7 @@
         android:layout_marginStart="160dp"
         android:layout_marginTop="77dp"
         android:layout_marginEnd="160dp"
+        android:onClick="ChuyenLogin"
         android:text="Đăng nhập"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
