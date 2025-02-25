@@ -1,5 +1,7 @@
 package com.example.lt1_bmiapp;
 
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     EditText editHeight, editWeight;
     Button btnTinh;
     TextView txtRes, txtResString;
+
+    String gender = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +34,23 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         TimView();
+        imgBtnNam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                gender = "Nam";
+                imgBtnNam.setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_ATOP);
+                imgBtnNu.clearColorFilter();
+            }
+        });
+        imgBtnNu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                gender = "Nữ";
+                imgBtnNu.setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_ATOP);
+                imgBtnNam.clearColorFilter();
+
+            }
+        });
     }
     public void TimView()
     {
@@ -48,30 +69,42 @@ public class MainActivity extends AppCompatActivity {
         float height = Float.parseFloat(editHeight.getText().toString()) / 100;
 
         float kq =  weight / (height * height);
-        txtRes.setText(kq + "");
+        txtRes.setText("Giới tính: " + gender + " Chỉ số BMI" +kq);
+        TinhBMI(kq);
+    }
+
+    public float TinhBMI (float kq)
+    {
         if (kq <= 18.5)
         {
+            txtResString.setTextColor(Color.YELLOW);
             txtResString.setText("Gầy, Cần bổ sung thêm chất");
         }
         else if (kq <= 22.9)
         {
+            txtResString.setTextColor(Color.GREEN);
             txtResString.setText("Bình thường");
         }
         else if (kq == 23)
         {
+            txtResString.setTextColor(Color.YELLOW);
             txtResString.setText("Thừa cân, cần điều chỉnh chế độ ăn uống");
         }
         else if (kq <= 24.9)
         {
+            txtResString.setTextColor(Color.YELLOW);
             txtResString.setText("Tiền béo phì, cần điều chỉnh chế độ ăn uống");
         }
         else if (kq <= 29.9)
         {
+            txtResString.setTextColor(Color.RED);
             txtResString.setText("Béo phì độ I, cần điều chỉnh chế độ ăn uống");
         }
         else if (kq == 30)
         {
+            txtResString.setTextColor(Color.RED);
             txtResString.setText("Béo phì độ II, cần điều chỉnh chế độ ăn uống");
         }
+        return kq;
     }
 }
