@@ -37,7 +37,7 @@
                 android:text="Độ C" />
 
             <EditText
-                android:id="@+id/editTextText"
+                android:id="@+id/editCDeg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -60,7 +60,7 @@
                 android:text="Độ F" />
 
             <EditText
-                android:id="@+id/editTextText2"
+                android:id="@+id/editFDeg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -73,9 +73,18 @@
 
     <Button
         android:id="@+id/btnTinh"
-        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Đổi Nhiệt Độ"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="TinhToan"
+        android:text="Đổi Nhiệt Độ" />
+
+    <TextView
+        android:id="@+id/txtError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp" />
 </LinearLayout>
