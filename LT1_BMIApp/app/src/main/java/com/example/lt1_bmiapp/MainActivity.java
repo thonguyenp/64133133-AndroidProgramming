@@ -1,6 +1,7 @@
 package com.example.lt1_bmiapp;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton imgBtnNam, imgBtnNu;
     EditText editHeight, editWeight;
     Button btnTinh;
-    TextView txtRes;
+    TextView txtRes, txtResString;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,5 +39,39 @@ public class MainActivity extends AppCompatActivity {
         editWeight = findViewById(R.id.editWeight);
         btnTinh = findViewById(R.id.btnTinh);
         txtRes = findViewById(R.id.txtRes);
+        txtResString = findViewById(R.id.txtResString);
+    }
+
+    public void TinhToan(View v)
+    {
+        float weight = Float.parseFloat(editWeight.getText().toString());
+        float height = Float.parseFloat(editHeight.getText().toString()) / 100;
+
+        float kq =  weight / (height * height);
+        txtRes.setText(kq + "");
+        if (kq <= 18.5)
+        {
+            txtResString.setText("Gầy, Cần bổ sung thêm chất");
+        }
+        else if (kq <= 22.9)
+        {
+            txtResString.setText("Bình thường");
+        }
+        else if (kq == 23)
+        {
+            txtResString.setText("Thừa cân, cần điều chỉnh chế độ ăn uống");
+        }
+        else if (kq <= 24.9)
+        {
+            txtResString.setText("Tiền béo phì, cần điều chỉnh chế độ ăn uống");
+        }
+        else if (kq <= 29.9)
+        {
+            txtResString.setText("Béo phì độ I, cần điều chỉnh chế độ ăn uống");
+        }
+        else if (kq == 30)
+        {
+            txtResString.setText("Béo phì độ II, cần điều chỉnh chế độ ăn uống");
+        }
     }
 }
