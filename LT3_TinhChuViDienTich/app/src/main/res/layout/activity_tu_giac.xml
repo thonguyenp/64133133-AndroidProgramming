@@ -89,6 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="43dp"
         android:layout_marginEnd="24dp"
+        android:onClick="TinhDienTich"
         android:text="Tính Diện Tích"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editRong" />
@@ -100,6 +101,7 @@
         android:layout_marginStart="31dp"
         android:layout_marginTop="51dp"
         android:layout_marginEnd="89dp"
+        android:onClick="TinhChuVi"
         android:text="Tính Chu Vi"
         app:layout_constraintEnd_toStartOf="@+id/btnDienTich"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,12 +112,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="166dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="167dp"
         android:text="Diện tích"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtResChuVi" />
 
@@ -124,12 +126,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="176dp"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="156dp"
         android:layout_marginEnd="177dp"
         android:text="Chu Vi"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editRong" />
 
