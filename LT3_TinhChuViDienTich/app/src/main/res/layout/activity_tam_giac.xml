@@ -14,19 +14,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Triangle" />
+        app:srcCompat="@drawable/triangle" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
+        android:layout_marginTop="26dp"
         android:layout_marginEnd="28dp"
         android:text="Nhập vào thông tin 3 cạnh của tam giác"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="226dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
         android:id="@+id/textView3"
@@ -64,12 +65,12 @@
         android:layout_marginEnd="24dp"
         android:text="Cạnh b"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextText2"
+        app:layout_constraintEnd_toStartOf="@+id/editB"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/editB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -91,12 +92,12 @@
         android:layout_marginEnd="50dp"
         android:text="Cạnh c"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextText3"
+        app:layout_constraintEnd_toStartOf="@+id/editC"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/editC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="31dp"
@@ -105,7 +106,7 @@
         android:inputType="text"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+        app:layout_constraintTop_toBottomOf="@+id/editB" />
 
     <Button
         android:id="@+id/btnChuVi"
@@ -114,10 +115,11 @@
         android:layout_marginStart="31dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="89dp"
+        android:onClick="TinhChuVi"
         android:text="Tính Chu Vi"
         app:layout_constraintEnd_toStartOf="@+id/btnDienTich"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+        app:layout_constraintTop_toBottomOf="@+id/editC" />
 
     <Button
         android:id="@+id/btnDienTich"
@@ -125,25 +127,34 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="28dp"
+        android:onClick="TinhDienTich"
         android:text="Tính Diện Tích"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+        app:layout_constraintTop_toBottomOf="@+id/editC" />
 
     <TextView
         android:id="@+id/txtResChuVi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="177dp"
         android:text="Chu Vi"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="569dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editC" />
 
     <TextView
         android:id="@+id/txtResDienTich"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="167dp"
         android:text="Diện tích"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="635dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResChuVi" />
 </androidx.constraintlayout.widget.ConstraintLayout>
