@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     public void TimView()
     {
         btnTamGiac = findViewById(R.id.btnTamGiac);
-        btnTuGiac = findViewById(R.id.btnTuGiac);
+        btnTuGiac = findViewById(R.id.btnChuNhat);
     }
 
 }

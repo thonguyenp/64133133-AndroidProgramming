@@ -38,12 +38,12 @@
         android:layout_marginEnd="24dp"
         android:text="Cạnh a"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/editA"
+        app:layout_constraintEnd_toStartOf="@+id/ediDai"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editA"
+        android:id="@+id/ediDai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -65,12 +65,12 @@
         android:layout_marginEnd="24dp"
         android:text="Cạnh b"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/editB"
+        app:layout_constraintEnd_toStartOf="@+id/editRong"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/editB"
+        android:id="@+id/editRong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -81,7 +81,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/editA" />
+        app:layout_constraintTop_toBottomOf="@+id/ediDai" />
 
     <TextView
         android:id="@+id/textView5"
@@ -106,7 +106,7 @@
         android:inputType="text"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editB" />
+        app:layout_constraintTop_toBottomOf="@+id/editRong" />
 
     <Button
         android:id="@+id/btnChuVi"

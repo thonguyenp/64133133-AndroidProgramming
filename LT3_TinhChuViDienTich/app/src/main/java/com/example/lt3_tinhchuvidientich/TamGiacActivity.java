@@ -32,8 +32,8 @@ public class TamGiacActivity extends AppCompatActivity {
 
     public void TimView()
     {
-        editA = findViewById(R.id.editA);
-        editB = findViewById(R.id.editB);
+        editA = findViewById(R.id.ediDai);
+        editB = findViewById(R.id.editRong);
         editC = findViewById(R.id.editC);
         btnChuVi = findViewById(R.id.btnChuVi);
         btnDienTich = findViewById(R.id.btnDienTich);
