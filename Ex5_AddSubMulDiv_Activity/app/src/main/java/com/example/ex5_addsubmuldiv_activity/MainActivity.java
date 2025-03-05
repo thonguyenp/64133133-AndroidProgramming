@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
         TimView();
         btnCong.setOnClickListener(this);
+        btnTru.setOnClickListener(this);
+        btnNhan.setOnClickListener(this);
+        btnChia.setOnClickListener(this);
     }
 
     void TimView ()
@@ -51,7 +54,34 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Float b = Float.parseFloat(editB.getText().toString());
             float kq = a + b;
             txtKQ.setText(kq + "");
-
+        }
+        else if (view.getId() == R.id.btnTru)
+        {
+            Float a = Float.parseFloat(editA.getText().toString());
+            Float b = Float.parseFloat(editB.getText().toString());
+            float kq = a - b;
+            txtKQ.setText(kq + "");
+        }
+        else if (view.getId() == R.id.btnNhan)
+        {
+            Float a = Float.parseFloat(editA.getText().toString());
+            Float b = Float.parseFloat(editB.getText().toString());
+            float kq = a * b;
+            txtKQ.setText(kq + "");
+        }
+        else if (view.getId() == R.id.btnChia)
+        {
+            Float a = Float.parseFloat(editA.getText().toString());
+            Float b = Float.parseFloat(editB.getText().toString());
+            if (b == 0)
+            {
+                txtKQ.setText("Lỗi chia cho 0");
+            }
+            else
+            {
+                float kq = a / b;
+                txtKQ.setText(kq + "");
+            }
         }
     }
 }
