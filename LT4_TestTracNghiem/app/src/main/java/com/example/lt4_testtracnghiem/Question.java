@@ -3,18 +3,18 @@ package com.example.lt4_testtracnghiem;
 import java.util.List;
 
 public class Question {
-    String question;
+    String romanji;
     String answer;
     List<String> options;
 
-    public Question(String question, String answer, List<String> options) {
-        this.question = question;
+    public Question(String romanji, String answer, List<String> options) {
+        this.romanji = romanji;
         this.answer = answer;
         this.options = options;
     }
 
-    public String getQuestion() {
-        return question;
+    public String getRomanji() {
+        return romanji;
     }
 
     public String getAnswer() {
