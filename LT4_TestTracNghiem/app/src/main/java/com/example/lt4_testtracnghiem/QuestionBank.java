@@ -2,22 +2,36 @@ package com.example.lt4_testtracnghiem;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Random;
+import java.util.Set;
 
 public class QuestionBank {
     public static List<Question> getQuestions() {
         List<Question> questions = new ArrayList<>();
+        List<KanaBank> allKana = new ArrayList<>(KanaBank.getAllKana());
+        Random random = new Random();
+        Collections.shuffle(allKana);
+        for (int i = 0; i < 10; i++)
+        {
+            KanaBank kana = allKana.get(i); //lấy chữ kana thứ i trong danh sách đã xáo
+            String romanjiDung = kana.getRomaji();
+            String kanaDung = kana.getKana();
 
-        questions.add(new Question("mi", "み", List.of("む", "り", "み", "ぎ", "に", "も", "じ", "き")));
-        questions.add(new Question("ka", "か", List.of("か", "き", "く", "け", "こ", "さ", "し", "す")));
-        questions.add(new Question("su", "す", List.of("し", "す", "せ", "そ", "た", "ち", "つ", "て")));
-        questions.add(new Question("a", "あ", List.of("し", "す", "あ", "そ", "た", "ち", "つ", "て")));
-        questions.add(new Question("ha", "は", List.of("し", "す", "あ", "は", "た", "ち", "つ", "て")));
-        questions.add(new Question("ku", "ク", List.of("し", "す", "あ", "は", "た", "ち", "ク", "て")));
-
-        // Thêm nhiều câu hỏi khác vào đây
-        Collections.shuffle(questions); // Xáo trộn câu hỏi
-        return questions.subList(0, 6); // Chọn ngẫu nhiên 10 câu
+            //Tạo 1 set options chứa các đáp án khác nhau
+            Set<String> options = new HashSet<>();  //dùng set thay cho list để tránh xuất hiện 2 đáp án đúng
+            options.add(kanaDung);  //thêm đáp án đúng vào set
+            //vòng lặp thêm 7 đáp án sai còn lại
+            while (options.size() < 8) {
+                //chọn ngẫu nhiên 1 chữ trong list
+                KanaBank randomKana = allKana.get(random.nextInt(allKana.size()));
+                options.add(randomKana.getKana());  //thêm chữ đó vào set
+            }
+            List<String> optList = new ArrayList<>(options);    //copy set thành list vì set ko có thứ tự
+            Collections.shuffle(optList);   //xóa trộn list
+            questions.add(new Question(romanjiDung,kanaDung,optList));
+        }
+        return questions;
     }
-
 }
