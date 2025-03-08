@@ -56,7 +56,8 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 ### 🔹 Ex7_IntentLogin
 - 📂 [Xem mã nguồn](./Ex7_IntentLogin/app/src/main/)
 - Hình ảnh minh họa:
-
-  ![Ex7_IntentLogin](./Ex7_IntentLogin/KetQua1.PNG)
-  ![Ex7_IntentLogin](./Ex7_IntentLogin/KetQua2.PNG)
-  ![Ex7_IntentLogin](./Ex7_IntentLogin/KetQua3.PNG)
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./Ex7_IntentLogin/KetQua1.PNG" alt="Ex7_IntentLogin1" width="30%"/>
+  <img src="./Ex7_IntentLogin/KetQua2.PNG" alt="Ex7_IntentLogin2" width="30%"/>
+  <img src="./Ex7_IntentLogin/KetQua3.PNG" alt="Ex7_IntentLogin3" width="30%"/>
+</div>
