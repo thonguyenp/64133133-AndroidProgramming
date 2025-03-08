@@ -11,4 +11,4 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 ### 🔹 HelloWorld
 - 📂 [Xem mã nguồn](./HelloWorld/app/src/main/)
 - Hình ảnh minh họa:
-  ![HelloWorld](./HelloWorld/Ketqua.PNG)
+(./HelloWorld/Ketqua.PNG)
