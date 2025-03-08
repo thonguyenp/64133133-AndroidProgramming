@@ -49,7 +49,7 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 
   ![Ex4_AddSubMulDiv_Onclick](./Ex5_AddSubMulDiv_Var/KetQua.PNG)
 ### 🔹 Ex6_IntentDonGian
-- 📂 [Xem mã nguồn](./Ex6_IntentDonGian/IntentVD1/app/src/main/)
+- 📂 [Xem mã nguồn](./Ex6_IntentDonGian/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex4_AddSubMulDiv_Onclick](./Ex5_AddSubMulDiv_Var/KetQua.PNG)
+  ![Ex4_AddSubMulDiv_Onclick](./Ex6_IntentDonGian/KetQua.PNG)
