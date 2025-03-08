@@ -61,3 +61,30 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
   <img src="./Ex7_IntentLogin/KetQua2.PNG" alt="Ex7_IntentLogin2" width="30%"/>
   <img src="./Ex7_IntentLogin/KetQua3.PNG" alt="Ex7_IntentLogin3" width="30%"/>
 </div>
+
+## CÁC BÀI TẬP LÀM THÊM
+Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh minh họa:
+### 🔹 LT1_BMIApp
+- 📂 [Xem mã nguồn](./LT1_BMIApp/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![LT1_BMIApp](./LT1_BMIApp/KetQua.PNG)
+### 🔹 LT2_DoiNhietDo
+- 📂 [Xem mã nguồn](./LT2_DoiNhietDo/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![LT2_DoiNhietDo](./LT2_DoiNhietDo/KetQua.PNG)
+### 🔹 LT3_TinhChuViDienTich
+- 📂 [Xem mã nguồn](./LT3_TinhChuViDienTich/app/src/main/)
+- Hình ảnh minh họa:
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./LT3_TinhChuViDienTich/KetQua1.PNG" alt="Ex7_IntentLogin1" width="30%"/>
+  <img src="./LT3_TinhChuViDienTich/KetQua2.PNG" alt="Ex7_IntentLogin2" width="30%"/>
+  <img src="./LT3_TinhChuViDienTich/KetQua3.PNG" alt="Ex7_IntentLogin3" width="30%"/>
+</div>
+### 🔹 LT4_TestTracNghiem
+- 📂 [Xem mã nguồn](./LT4_TestTracNghiem/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![LT4_TestTracNghiem](./LT4_TestTracNghiem/KetQua.PNG)
