@@ -37,19 +37,26 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Activity/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex4_AddSubMulDiv_Onclick](./Ex5_AddSubMulDiv_Activity/KetQua.PNG)
+  ![Ex5_AddSubMulDiv_Activity](./Ex5_AddSubMulDiv_Activity/KetQua.PNG)
 ### 🔹 Ex5_AddSubMulDiv_Anynomous
 - 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Anynomous/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex4_AddSubMulDiv_Onclick](./Ex5_AddSubMulDiv_Anynomous/KetQua.PNG)
+  ![Ex5_AddSubMulDiv_Anynomous](./Ex5_AddSubMulDiv_Anynomous/KetQua.PNG)
 ### 🔹 Ex5_AddSubMulDiv_Var
 - 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Var/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex4_AddSubMulDiv_Onclick](./Ex5_AddSubMulDiv_Var/KetQua.PNG)
+  ![Ex5_AddSubMulDiv_Var](./Ex5_AddSubMulDiv_Var/KetQua.PNG)
 ### 🔹 Ex6_IntentDonGian
 - 📂 [Xem mã nguồn](./Ex6_IntentDonGian/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex4_AddSubMulDiv_Onclick](./Ex6_IntentDonGian/KetQua.PNG)
+  ![Ex6_IntentDonGian](./Ex6_IntentDonGian/KetQua.PNG)
+### 🔹 Ex7_IntentLogin
+- 📂 [Xem mã nguồn](./Ex7_IntentLogin/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![Ex7_IntentLogin](./Ex7_IntentLogin/KetQua1.PNG)
+  ![Ex7_IntentLogin](./Ex7_IntentLogin/KetQua2.PNG)
+  ![Ex7_IntentLogin](./Ex7_IntentLogin/KetQua3.PNG)
