@@ -28,3 +28,28 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - Hình ảnh minh họa:
 
   ![Ex3_AppCong](./Ex3_AppCong/KetQua.PNG)
+### 🔹 Ex4_AddSubMulDiv_Onclick
+- 📂 [Xem mã nguồn](./Ex4_AddSubMulDiv_Onclick/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![Ex4_AddSubMulDiv_Onclick](./Ex4_AddSubMulDiv_Onclick/KetQua.PNG)
+### 🔹 Ex5_AddSubMulDiv_Activity
+- 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Activity/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![Ex4_AddSubMulDiv_Onclick](./Ex5_AddSubMulDiv_Activity/KetQua.PNG)
+### 🔹 Ex5_AddSubMulDiv_Anynomous
+- 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Anynomous/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![Ex4_AddSubMulDiv_Onclick](./Ex5_AddSubMulDiv_Anynomous/KetQua.PNG)
+### 🔹 Ex5_AddSubMulDiv_Var
+- 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Var/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![Ex4_AddSubMulDiv_Onclick](./Ex5_AddSubMulDiv_Var/KetQua.PNG)
+### 🔹 Ex6_IntentDonGian
+- 📂 [Xem mã nguồn](./Ex6_IntentDonGian/IntentVD1/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![Ex4_AddSubMulDiv_Onclick](./Ex5_AddSubMulDiv_Var/KetQua.PNG)
