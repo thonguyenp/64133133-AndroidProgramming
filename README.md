@@ -8,7 +8,7 @@
 ## SOURCES CODE BÀI TẬP THỰC HÀNH
 Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh minh họa:
 
-### 🔹 Ex1_Hello
-- 📂 [Xem mã nguồn](.//)
-- 🖼️ Hình ảnh minh họa:
-  ![Ex1_Hello]()
+### 🔹 HelloWorld
+- 📂 [Xem mã nguồn](./HelloWorld/app/src/main/)
+- Hình ảnh minh họa:
+  ![HelloWorld](./HelloWorld/Ketqua.PNG)
