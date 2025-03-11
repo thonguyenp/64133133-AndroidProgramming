@@ -49,6 +49,7 @@ public enum KanaBank {
     public static List<KanaBank> getAllKana()
     {
         //chuyển toàn bộ enum thành một List có phần tử kiểu KanaBank
+        //values() chính là A, I, E, ... của hiragana và A_K, I_K, ... của katakana
         return Arrays.asList(KanaBank.values());
     }
 }

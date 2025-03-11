@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             //Cuối cùng thì thêm nút vào gridLayout
             Button btnOption = new Button(this);
             btnOption.setText(option);
-            btnOption.setOnClickListener(view -> checkAnswer(option));
+            btnOption.setOnClickListener(view -> checkAnswer(option));  //biểu thức lambda, truyền vào view và thực checkAnswer(option)
             gridOptions.addView(btnOption);
         }
     }
