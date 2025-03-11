@@ -17,9 +17,9 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    ArrayList<String>dsTinhThanh;
+    ArrayList<String>dsHuyen;
     ArrayAdapter<String> adapter;
-    ListView lvTinhThanh;
+    ListView lvHuyen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,27 +32,24 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         TimView();
-        dsTinhThanh = new ArrayList<String>();
-        dsTinhThanh.add("Nha Trang");
-        dsTinhThanh.add("Đà Nẵng");
-        dsTinhThanh.add("Bình Định");
-        dsTinhThanh.add("Quy Nhơn");
-        dsTinhThanh.add("Phú Yên");
-        dsTinhThanh.add("TP Hồ Chí Minh");
-        dsTinhThanh.add("Hà Nội");
-        dsTinhThanh.add("Thừa Thiên Huế");
-        dsTinhThanh.add("Hải Phòng");
-        dsTinhThanh.add("Cao Bằng");
-        dsTinhThanh.add("Yên Bái");
-        dsTinhThanh.add("Lạng Sơn");
-        dsTinhThanh.add("Đồng Nai");
+        dsHuyen = new ArrayList<String>();
+        dsHuyen.add("Nha Trang");
+        dsHuyen.add("Cam Ranh");
+        dsHuyen.add("Ninh Hòa");
+        dsHuyen.add("Vạn Ninh");
+        dsHuyen.add("Phú Yên");
+        dsHuyen.add("Diên Khánh");
+        dsHuyen.add("Khánh Sơn");
+        dsHuyen.add("Khánh Vĩnh");
+        dsHuyen.add("Cam Lâm");
+        dsHuyen.add("huyện đảo Trường Sa");
 
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, dsTinhThanh);
-        lvTinhThanh.setAdapter(adapter);
-        lvTinhThanh.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, dsHuyen);
+        lvHuyen.setAdapter(adapter);
+        lvHuyen.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String tenTinhThanh = dsTinhThanh.get(i);
+                String tenTinhThanh = dsHuyen.get(i);
                 Toast.makeText(MainActivity.this, "Bạn vừa chọn: " + tenTinhThanh, Toast.LENGTH_SHORT).show();
             }
         });
@@ -60,6 +57,6 @@ public class MainActivity extends AppCompatActivity {
 
     void TimView()
     {
-        lvTinhThanh = findViewById(R.id.lvTinhThanh);
+        lvHuyen = findViewById(R.id.lvHuyen);
     }
 }

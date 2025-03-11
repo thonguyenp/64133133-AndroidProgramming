@@ -62,6 +62,13 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
   <img src="./Ex7_IntentLogin/KetQua3.PNG" alt="Ex7_IntentLogin3" width="30%"/>
 </div>
 
+### 🔹 Ex_6_ListViewDemo
+- 📂 [Xem mã nguồn](./Ex_6_ListViewDemo/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![Ex_6_ListViewDemo](./Ex_6_ListViewDemo/KetQua.PNG)
+
+
 ## CÁC BÀI TẬP LÀM THÊM
 Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh minh họa:
 ### 🔹 LT1_BMIApp
@@ -89,4 +96,9 @@ Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh mi
 - Hình ảnh minh họa:
 
   ![LT4_TestTracNghiem](./LT4_TestTracNghiem/KetQua.PNG)
+### 🔹 LT5_LoginMaterialLayout
+- 📂 [Xem mã nguồn](./LT5_LoginMaterialLayout/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![LT4_TestTracNghiem](./LT5_LoginMaterialLayout/KetQua1.PNG)
 

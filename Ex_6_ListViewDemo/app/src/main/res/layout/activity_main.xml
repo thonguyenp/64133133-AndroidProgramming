@@ -14,14 +14,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="8dp"
-        android:text="Danh sách các tỉnh thành ở Việt Nam"
+        android:text="Danh sách các huyện thành ở Khánh Hòa"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:id="@+id/lvTinhThanh"
+        android:id="@+id/lvHuyen"
         android:layout_width="350dp"
         android:layout_height="0dp"
         android:layout_marginStart="30dp"
