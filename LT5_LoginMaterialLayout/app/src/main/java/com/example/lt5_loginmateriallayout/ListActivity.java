@@ -1,9 +1,11 @@
 package com.example.lt5_loginmateriallayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -24,6 +26,7 @@ public class ListActivity extends AppCompatActivity {  // Đảm bảo có khai 
     ArrayAdapter<String> adapter;
     ArrayList<Double> diemSo;
 
+    Button btnReturn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +37,15 @@ public class ListActivity extends AppCompatActivity {  // Đảm bảo có khai 
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        btnReturn = findViewById(R.id.btnReturn);
         lvDSHP = findViewById(R.id.lvDSHP);
+        btnReturn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent iHome = new Intent(ListActivity.this, HomeActivity.class);
+                startActivity(iHome);
+            }
+        });
         dshp = new ArrayList<String>();
         dshp.add("Phân tích thiết kế hệ thống thông tin");
         dshp.add("Lập trình Python");

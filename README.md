@@ -100,5 +100,10 @@ Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh mi
 - 📂 [Xem mã nguồn](./LT5_LoginMaterialLayout/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![LT4_TestTracNghiem](./LT5_LoginMaterialLayout/KetQua1.PNG)
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./LT5_LoginMaterialLayout/KetQua1.PNG" alt="Ex7_IntentLogin1" width="25%"/>
+  <img src="./LT5_LoginMaterialLayout/KetQua2.PNG" alt="Ex7_IntentLogin2" width="25%"/>
+  <img src="./LT5_LoginMaterialLayout/KetQua3.PNG" alt="Ex7_IntentLogin3" width="25%"/>
+  <img src="./LT5_LoginMaterialLayout/KetQua4.PNG" alt="Ex7_IntentLogin3" width="25%"/>
+</div>
 
