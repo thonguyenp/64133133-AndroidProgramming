@@ -112,7 +112,7 @@ Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh mi
 - Hình ảnh minh họa:
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./LT6_flappybird/KetQua1.PNG" alt="Ex7_IntentLogin1" width="25%"/>
+  <img src="./LT6_flappybird/KetQua1.png" alt="Ex7_IntentLogin1" width="25%"/>
   <img src="./LT6_flappybird/KetQua2.PNG" alt="Ex7_IntentLogin2" width="25%"/>
 </div>
 
