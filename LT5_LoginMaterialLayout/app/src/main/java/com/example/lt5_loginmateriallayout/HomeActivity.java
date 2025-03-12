@@ -2,6 +2,7 @@ package com.example.lt5_loginmateriallayout;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -31,6 +32,13 @@ public class HomeActivity extends AppCompatActivity {
         Intent iHome = getIntent();
         String username = iHome.getStringExtra("username");
         txtUsername.setText(username);
+        btnDSHP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent iDSHP = new Intent(HomeActivity.this, ListActivity.class);
+                startActivity(iDSHP);
+            }
+        });
     }
 
     void TimView ()
