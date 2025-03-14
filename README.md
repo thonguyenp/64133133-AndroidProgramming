@@ -67,6 +67,19 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - Hình ảnh minh họa:
 
   ![Ex_6_ListViewDemo](./Ex_6_ListViewDemo/KetQua.PNG)
+### 🔹 Ex8_LoginPage
+- 📂 [Xem mã nguồn](./Ex8_LoginPage/app/src/main/)
+- Hình ảnh minh họa:
+
+  ![Ex8_LoginPage](./Ex8_LoginPage/KetQua.PNG)
+### 🔹 Ex9_DashboardMaterial
+- 📂 [Xem mã nguồn](./Ex9_DashboardMaterial/app/src/main/)
+- Hình ảnh minh họa:
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./Ex9_DashboardMaterial/KetQua2.PNG" alt="Ex7_IntentLogin1" width="30%"/>
+  <img src="./Ex9_DashboardMaterial/KetQua1.PNG" alt="Ex7_IntentLogin2" width="30%"/>
+</div>
 
 
 ## CÁC BÀI TẬP LÀM THÊM
