@@ -129,4 +129,11 @@ Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh mi
   <img src="./LT6_flappybird/KetQua2.PNG" alt="Ex7_IntentLogin2" width="25%"/>
 </div>
 
+### 🔹 LT7_AppTracNghiemToan
+- 📂 [Xem mã nguồn](./LT7_AppTracNghiemToan/app/src/main/)
+- Hình ảnh minh họa:
+
+  <img src="./LT7_AppTracNghiemToan/KetQua.PNG" alt="LT4_TestTracNghiem" width="400">
+
+
 
