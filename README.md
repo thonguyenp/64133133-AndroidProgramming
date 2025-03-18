@@ -12,47 +12,47 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - 📂 [Xem mã nguồn](./HelloWorld/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![HelloWorld](./HelloWorld/Ketqua.PNG)
+  <img src="./HelloWorld/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex1_ConstraintLayout
 - 📂 [Xem mã nguồn](./Ex1_ConstraintLayout/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex1_ConstraintLayout](./Ex1_ConstraintLayout/KetQuaConstraintLayout.PNG)
+  <img src="./Ex1_ConstraintLayout/KetQuaConstraintLayout.PNG.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex2_LinearLayout
 - 📂 [Xem mã nguồn](./Ex2_LinearLayout/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex2_LinearLayout](./Ex2_LinearLayout/KetQuaLinearLayout.PNG)
+  <img src="./Ex2_LinearLayout/KetQuaLinearLayout.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex3_AppCong
 - 📂 [Xem mã nguồn](./Ex3_AppCong/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex3_AppCong](./Ex3_AppCong/KetQua.PNG)
+  <img src="./Ex3_AppCong/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex4_AddSubMulDiv_Onclick
 - 📂 [Xem mã nguồn](./Ex4_AddSubMulDiv_Onclick/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex4_AddSubMulDiv_Onclick](./Ex4_AddSubMulDiv_Onclick/KetQua.PNG)
+  <img src="./Ex4_AddSubMulDiv_Onclick/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex5_AddSubMulDiv_Activity
 - 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Activity/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex5_AddSubMulDiv_Activity](./Ex5_AddSubMulDiv_Activity/KetQua.PNG)
+  <img src="./Ex5_AddSubMulDiv_Activity/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex5_AddSubMulDiv_Anynomous
 - 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Anynomous/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex5_AddSubMulDiv_Anynomous](./Ex5_AddSubMulDiv_Anynomous/KetQua.PNG)
+  <img src="./Ex5_AddSubMulDiv_Anynomous/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex5_AddSubMulDiv_Var
 - 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Var/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex5_AddSubMulDiv_Var](./Ex5_AddSubMulDiv_Var/KetQua.PNG)
+  <img src="./Ex5_AddSubMulDiv_Var/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex6_IntentDonGian
 - 📂 [Xem mã nguồn](./Ex6_IntentDonGian/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex6_IntentDonGian](./Ex6_IntentDonGian/KetQua.PNG)
+  <img src="./Ex6_IntentDonGian/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex7_IntentLogin
 - 📂 [Xem mã nguồn](./Ex7_IntentLogin/app/src/main/)
 - Hình ảnh minh họa:
@@ -66,12 +66,12 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - 📂 [Xem mã nguồn](./Ex_6_ListViewDemo/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex_6_ListViewDemo](./Ex_6_ListViewDemo/KetQua.PNG)
+  <img src="./Ex_6_ListViewDemo/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex8_LoginPage
 - 📂 [Xem mã nguồn](./Ex8_LoginPage/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![Ex8_LoginPage](./Ex8_LoginPage/KetQua.PNG)
+  <img src="./Ex8_LoginPage/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex9_DashboardMaterial
 - 📂 [Xem mã nguồn](./Ex9_DashboardMaterial/app/src/main/)
 - Hình ảnh minh họa:
@@ -88,12 +88,12 @@ Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh mi
 - 📂 [Xem mã nguồn](./LT1_BMIApp/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![LT1_BMIApp](./LT1_BMIApp/KetQua.PNG)
+  <img src="./LT1_BMIApp/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 LT2_DoiNhietDo
 - 📂 [Xem mã nguồn](./LT2_DoiNhietDo/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![LT2_DoiNhietDo](./LT2_DoiNhietDo/KetQua.PNG)
+  <img src="./LT2_DoiNhietDo/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 LT3_TinhChuViDienTich
 - 📂 [Xem mã nguồn](./LT3_TinhChuViDienTich/app/src/main/)
 - Hình ảnh minh họa:
@@ -108,7 +108,7 @@ Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh mi
 - 📂 [Xem mã nguồn](./LT4_TestTracNghiem/app/src/main/)
 - Hình ảnh minh họa:
 
-  ![LT4_TestTracNghiem](./LT4_TestTracNghiem/KetQua.PNG)
+  <img src="./LT4_TestTracNghiem/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 LT5_LoginMaterialLayout
 - 📂 [Xem mã nguồn](./LT5_LoginMaterialLayout/app/src/main/)
 - Hình ảnh minh họa:
