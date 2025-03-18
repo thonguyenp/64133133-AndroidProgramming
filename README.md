@@ -133,7 +133,7 @@ Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh mi
 - 📂 [Xem mã nguồn](./LT7_AppTracNghiemToan/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./LT7_AppTracNghiemToan/KetQua.PNG" alt="LT4_TestTracNghiem" width="400" height="400">
+  <img src="./LT7_AppTracNghiemToan/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 
 
 
