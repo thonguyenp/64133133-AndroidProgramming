@@ -12,27 +12,27 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - 📂 [Xem mã nguồn](./HelloWorld/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./HelloWorld/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./HelloWorld/Ketqua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 ### 🔹 Ex1_ConstraintLayout
 - 📂 [Xem mã nguồn](./Ex1_ConstraintLayout/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./Ex1_ConstraintLayout/KetQuaConstraintLayout.PNG.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./Ex1_ConstraintLayout/KetQuaConstraintLayout.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
 ### 🔹 Ex2_LinearLayout
 - 📂 [Xem mã nguồn](./Ex2_LinearLayout/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./Ex2_LinearLayout/KetQuaLinearLayout.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./Ex2_LinearLayout/KetQuaLinearLayout.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
 ### 🔹 Ex3_AppCong
 - 📂 [Xem mã nguồn](./Ex3_AppCong/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./Ex3_AppCong/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./Ex3_AppCong/KetQua.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
 ### 🔹 Ex4_AddSubMulDiv_Onclick
 - 📂 [Xem mã nguồn](./Ex4_AddSubMulDiv_Onclick/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./Ex4_AddSubMulDiv_Onclick/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./Ex4_AddSubMulDiv_Onclick/KetQua.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
 ### 🔹 Ex5_AddSubMulDiv_Activity
 - 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Activity/app/src/main/)
 - Hình ảnh minh họa:
@@ -42,12 +42,12 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Anynomous/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./Ex5_AddSubMulDiv_Anynomous/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./Ex5_AddSubMulDiv_Anynomous/KetQua.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
 ### 🔹 Ex5_AddSubMulDiv_Var
 - 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Var/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./Ex5_AddSubMulDiv_Var/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./Ex5_AddSubMulDiv_Var/KetQua.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
 ### 🔹 Ex6_IntentDonGian
 - 📂 [Xem mã nguồn](./Ex6_IntentDonGian/app/src/main/)
 - Hình ảnh minh họa:
