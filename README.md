@@ -12,6 +12,7 @@
 
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img src="./LT8_FirstFigmaProject/KetQua1.PNG" alt="Ex7_IntentLogin2" width="30%"/>
+  <img src="./LT8_FirstFigmaProject/KetQua2.PNG" alt="Ex7_IntentLogin2" width="30%"/>
 </div>
 
 
