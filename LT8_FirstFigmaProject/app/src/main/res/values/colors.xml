@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="title">#FBDAB1</color>
+    <color name="fontcolor">#ee8b60</color>
+    <color name="btnEnglish">#b4f8c8</color>
+    <color name="fontEnglish">#18b74b</color>
+    <color name="btnHindi1">#a0e7e5</color>
+    <color name="fontHindi1">#1ba7a6</color>
+</resources>

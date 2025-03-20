@@ -5,8 +5,29 @@
 
 ---
 
+## BÀI TẬP MỚI NHẤT
+### 🔹 LT8_FirstFigmaProject
+- 📂 [Xem mã nguồn](./Ex9_DashboardMaterial/app/src/main/)
+- Hình ảnh minh họa:
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./LT8_FirstFigmaProject/KetQua1.PNG" alt="Ex7_IntentLogin2" width="30%"/>
+</div>
+
+
+
+
 ## SOURCES CODE BÀI TẬP THỰC HÀNH
 Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh minh họa:
+
+### 🔹 Ex9_DashboardMaterial
+- 📂 [Xem mã nguồn](./Ex9_DashboardMaterial/app/src/main/)
+- Hình ảnh minh họa:
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./Ex9_DashboardMaterial/KetQua2.PNG" alt="Ex7_IntentLogin1" width="30%"/>
+  <img src="./Ex9_DashboardMaterial/KetQua1.PNG" alt="Ex7_IntentLogin2" width="30%"/>
+</div>
 
 ### 🔹 HelloWorld
 - 📂 [Xem mã nguồn](./HelloWorld/app/src/main/)
@@ -72,15 +93,6 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - Hình ảnh minh họa:
 
   <img src="./Ex8_LoginPage/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
-### 🔹 Ex9_DashboardMaterial
-- 📂 [Xem mã nguồn](./Ex9_DashboardMaterial/app/src/main/)
-- Hình ảnh minh họa:
-
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./Ex9_DashboardMaterial/KetQua2.PNG" alt="Ex7_IntentLogin1" width="30%"/>
-  <img src="./Ex9_DashboardMaterial/KetQua1.PNG" alt="Ex7_IntentLogin2" width="30%"/>
-</div>
-
 
 ## CÁC BÀI TẬP LÀM THÊM
 Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh minh họa:
