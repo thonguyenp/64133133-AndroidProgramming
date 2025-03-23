@@ -47,9 +47,9 @@ public class MyArrayAdapter extends ArrayAdapter<Phone> {
         TextView txtName = convertView.findViewById(R.id.txtName);
         txtName.setText(myPhone.getName());
         TextView txtPrice = convertView.findViewById(R.id.txtPrice);
-        txtPrice.setText(myPhone.getGiaTien());
+        txtPrice.setText("Giá tiền: " + myPhone.getGiaTien());
         TextView txtQuantity = convertView.findViewById(R.id.txtQuantity);
-        txtQuantity.setText(myPhone.getSoLuong());
+        txtQuantity.setText("Số lượng: "+myPhone.getSoLuong());
         return convertView;
     }
 }

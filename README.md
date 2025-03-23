@@ -107,8 +107,17 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 
 ## CÁC BÀI TẬP LÀM THÊM
 Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh minh họa:
+### 🔹 LT9_LVNangCao
+- 📂 [Xem mã nguồn](./LT9_LVNangCao/app/src/main/)
+- Hình ảnh minh họa:
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./LT9_LVNangCao/KetQua1.PNG" alt="Ex7_IntentLogin2" width="30%"/>
+</div>
+
+
 ### 🔹 LT8_FirstFigmaProject
-- 📂 [Xem mã nguồn](./Ex9_DashboardMaterial/app/src/main/)
+- 📂 [Xem mã nguồn](./LT8_FirstFigmaProject/app/src/main/)
 - Hình ảnh minh họa:
 
 <div style="display: flex; justify-content: center; gap: 10px;">
