@@ -72,7 +72,7 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 
 - Hình ảnh minh họa:
 
-  <img src="./Ex5_AddSubMulDiv_Activity/KetQua.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
+  <img src="./Ex5_AddSubMulDiv_Activity/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 
 ### 🔹 Ex3_AppCong
 - 📂 [Xem mã nguồn](./Ex3_AppCong/app/src/main/)
