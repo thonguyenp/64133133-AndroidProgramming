@@ -1,6 +1,9 @@
 package com.example.lt9_lvnangcao;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
@@ -9,7 +12,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.text.NumberFormat;
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     int img[] = {R.drawable.googlepixel, R.drawable.oppo, R.drawable.iphone,R.drawable.samsung};
@@ -36,11 +41,29 @@ public class MainActivity extends AppCompatActivity {
         //Ép 4 mảng con vào 1 mảng chính
         for (int i = 0 ; i < name.length; i++)
         {
+            String formattedPrice = formatCurrency(price[i]);
             //Thêm phần tử vào mảng dựa trên các phần tử trong mảng con
             list.add(new Phone(img[i], name[i], price[i], quantity[i]));
         }
         //Tạo mới adapter bằng cách đưa các tham số lần lượt: activity -> layout -> list data
         myArrayAdapter = new MyArrayAdapter(MainActivity.this,R.layout.item_layout,list);
         lv.setAdapter(myArrayAdapter);
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent iItem = new Intent(MainActivity.this, SubActivity.class);
+                iItem.putExtra("name",name[i]);
+                iItem.putExtra("img",img[i]);
+                iItem.putExtra("price",price[i]);
+                iItem.putExtra("quantity",quantity[i]);
+                startActivity(iItem);
+            }
+        });
     }
+
+    public static String formatCurrency(int amount) {
+        NumberFormat formatter = NumberFormat.getInstance(new Locale("vi", "VN"));
+        return formatter.format(amount) + " VND";
+    }
+
 }

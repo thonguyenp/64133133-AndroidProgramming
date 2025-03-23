@@ -1,10 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8E1"
+    android:padding="16dp"
     tools:context=".SubActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên điện thoại"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#5D4037"
+        android:paddingBottom="12dp"/>
+
+    <ImageView
+        android:id="@+id/imgSubPhone"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/googlepixel"
+        android:layout_gravity="center"
+        android:background="@drawable/image_border"
+        android:layout_marginVertical="24dp"/>
+
+    <TextView
+        android:id="@+id/txtSubPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Giá thành"
+        android:textAlignment="center"
+        android:textColor="@color/primary"
+        android:textStyle="bold"
+        android:paddingBottom="6dp"/>
+
+    <TextView
+        android:id="@+id/txtSubQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số lượng"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:paddingBottom="12dp"/>
+
+    <!-- Nút mua hàng -->
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/accent"
+        app:cornerRadius="12dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:text="Mua"
+        android:paddingHorizontal="24dp"/>
+</LinearLayout>

@@ -12,8 +12,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class MyArrayAdapter extends ArrayAdapter<Phone> {
     Activity context;
@@ -47,9 +49,16 @@ public class MyArrayAdapter extends ArrayAdapter<Phone> {
         TextView txtName = convertView.findViewById(R.id.txtName);
         txtName.setText(myPhone.getName());
         TextView txtPrice = convertView.findViewById(R.id.txtPrice);
-        txtPrice.setText("Giá tiền: " + myPhone.getGiaTien());
+        String formattedPrice = formatCurrency(myPhone.getGiaTien());
+        txtPrice.setText(formattedPrice);
         TextView txtQuantity = convertView.findViewById(R.id.txtQuantity);
         txtQuantity.setText("Số lượng: "+myPhone.getSoLuong());
         return convertView;
     }
+
+    public static String formatCurrency(int amount) {
+        NumberFormat formatter = NumberFormat.getInstance(new Locale("vi", "VN"));
+        return formatter.format(amount) + " VND";
+    }
+
 }
