@@ -65,10 +65,14 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - 🔹 **Màu phụ (Accent):** `#4DB6AC` *(Xanh mint)*
 - 🔹 **Màu nền (Background):** `#FFF8E1` *(Vàng kem)*
 - 🔹 **Màu chữ (Text):** `#5D4037` *(Nâu đậm)*
-- 📂 [Xem mã nguồn](./Ex4_AddSubMulDiv_Onclick/app/src/main/)
+- 📂 [Xem mã nguồn Activity](./Ex5_AddSubMulDiv_Activity/app/src/main/)
+- 📂 [Xem mã nguồn Onclick](./Ex4_AddSubMulDiv_Onclick/app/src/main/)
+- 📂 [Xem mã nguồn Anonymous](./Ex5_AddSubMulDiv_Anynomous/app/src/main/)
+- 📂 [Xem mã nguồn Var](./Ex5_AddSubMulDiv_Var/app/src/main/)
+
 - Hình ảnh minh họa:
 
-  <img src="./Ex4_AddSubMulDiv_Onclick/KetQua.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
+  <img src="./Ex5_AddSubMulDiv_Activity/KetQua.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
 
 ### 🔹 Ex3_AppCong
 - 📂 [Xem mã nguồn](./Ex3_AppCong/app/src/main/)
