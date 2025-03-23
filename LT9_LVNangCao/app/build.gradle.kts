@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lt8_firstfigmaproject"
+    namespace = "com.example.lt9_lvnangcao"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.lt8_firstfigmaproject"
+        applicationId = "com.example.lt9_lvnangcao"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -36,7 +36,6 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
-    implementation("com.google.android.material:material:1.8.0")
     implementation(libs.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)

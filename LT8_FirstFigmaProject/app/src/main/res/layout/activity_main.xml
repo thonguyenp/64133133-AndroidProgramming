@@ -48,6 +48,7 @@
         android:orientation="horizontal"
         android:layout_gravity="center"
         android:layout_marginTop="30dp">
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnEnglish"
             app:cornerRadius="30dp"
@@ -81,7 +82,9 @@
             android:id="@+id/btnHindi2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/hindibutton2"/>
+            android:elevation="10dp"
+            android:background="@drawable/hindibutton2"
+            />
         <ImageButton
             android:id="@+id/btnHindi3"
             android:layout_width="match_parent"
