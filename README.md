@@ -112,10 +112,10 @@ Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh mi
 - Dùng CardView bọc lấy item để có bo viền và bóng mờ
 - Sử dụng lớp NumberFormat có sẵn để định dạng giá tiền (xxx.xxx.xxx VND)
 - Bộ màu sử dụng:
-  🔹 Màu chính (Primary): #FF8A65 (Cam pastel)
-  🔹 Màu phụ (Accent): #4DB6AC (Xanh mint)
-  🔹 Màu nền (Background): #FFF8E1 (Vàng kem)
-  🔹 Màu chữ (Text): #5D4037 (Nâu đậm)
+- 🔹 **Màu chính (Primary):** `#FF8A65` *(Cam pastel)*
+- 🔹 **Màu phụ (Accent):** `#4DB6AC` *(Xanh mint)*
+- 🔹 **Màu nền (Background):** `#FFF8E1` *(Vàng kem)*
+- 🔹 **Màu chữ (Text):** `#5D4037` *(Nâu đậm)*
 - 📂 [Xem mã nguồn](./LT9_LVNangCao/app/src/main/)
 - Hình ảnh minh họa:
 
