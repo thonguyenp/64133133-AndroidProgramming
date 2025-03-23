@@ -70,6 +70,7 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
   <img src="./Ex5_AddSubMulDiv_Anynomous/KetQua.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
 
 ### 🔹 Ex5_AddSubMulDiv_Activity
+- Update 23/03/2025: Chỉnh sửa lại màu sắc phần giao diện
 - 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Activity/app/src/main/)
 - Hình ảnh minh họa:
 
