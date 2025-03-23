@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
     EditText editA;
     EditText editB;
-    EditText editKQ;
+    TextView txtKQ;
     Button btnCong, btnTru, btnNhan, btnChia;
 
     @Override
@@ -61,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     {
         editA = findViewById(R.id.editA);
         editB = findViewById(R.id.editB);
-        editKQ = findViewById(R.id.editKQ);
+        txtKQ = findViewById(R.id.txtKQ);
         btnCong = findViewById(R.id.btnCong);
         btnTru = findViewById(R.id.btnTru);
         btnNhan = findViewById(R.id.btnNhan);
@@ -75,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         float a = Float.parseFloat(soA);
         float b = Float.parseFloat(soB);
         float kq = a + b;
-        editKQ.setText(kq + "");
+        txtKQ.setText(kq + "");
     }
 
     void XULY_TRU()
@@ -85,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         float a = Float.parseFloat(soA);
         float b = Float.parseFloat(soB);
         float kq = a - b;
-        editKQ.setText(kq + "");
+        txtKQ.setText(kq + "");
     }
     void XULY_NHAN ()
     {
@@ -94,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         float a = Float.parseFloat(soA);
         float b = Float.parseFloat(soB);
         float kq = a * b;
-        editKQ.setText(kq + "");
+        txtKQ.setText(kq + "");
     }
     void XULY_CHIA ()
     {
@@ -103,11 +104,11 @@ public class MainActivity extends AppCompatActivity {
         float a = Float.parseFloat(soA);
         float b = Float.parseFloat(soB);
         if (b == 0)
-            editKQ.setText("Không thể chia cho 0");
+            txtKQ.setText("Không thể chia cho 0");
         else
         {
             float kq = a / b;
-            editKQ.setText(kq + "");
+            txtKQ.setText(kq + "");
         }
     }
 }

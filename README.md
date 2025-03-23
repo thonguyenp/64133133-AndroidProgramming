@@ -57,26 +57,14 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 
   <img src="./Ex6_IntentDonGian/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 
-### 🔹 Ex5_AddSubMulDiv_Var
-- 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Var/app/src/main/)
-- Hình ảnh minh họa:
-
-  <img src="./Ex5_AddSubMulDiv_Var/KetQua.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
-
-### 🔹 Ex5_AddSubMulDiv_Anynomous
-- 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Anynomous/app/src/main/)
-- Hình ảnh minh họa:
-
-  <img src="./Ex5_AddSubMulDiv_Anynomous/KetQua.PNG" alt="LT4_TestTracNghiem" width="60%" height="60%">
-
-### 🔹 Ex5_AddSubMulDiv_Activity
-- Update 23/03/2025: Chỉnh sửa lại màu sắc phần giao diện
-- 📂 [Xem mã nguồn](./Ex5_AddSubMulDiv_Activity/app/src/main/)
-- Hình ảnh minh họa:
-
-  <img src="./Ex5_AddSubMulDiv_Activity/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
-
-### 🔹 Ex4_AddSubMulDiv_Onclick
+### 🔹 Ex4,5_AddSubMulDiv
+- Update: Thống nhất 1 layout cho tất cả các bài cộng trừ nhân chia
+- Sử dụng: CardView và Material Button
+- Bộ màu sử dụng:
+- 🔹 **Màu chính (Primary):** `#FF8A65` *(Cam pastel)*
+- 🔹 **Màu phụ (Accent):** `#4DB6AC` *(Xanh mint)*
+- 🔹 **Màu nền (Background):** `#FFF8E1` *(Vàng kem)*
+- 🔹 **Màu chữ (Text):** `#5D4037` *(Nâu đậm)*
 - 📂 [Xem mã nguồn](./Ex4_AddSubMulDiv_Onclick/app/src/main/)
 - Hình ảnh minh họa:
 

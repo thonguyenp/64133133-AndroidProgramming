@@ -2,133 +2,167 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    android:padding="16dp"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
 
-    <LinearLayout
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/txtTitle"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:padding="5dp"
-        android:layout_marginTop="15dp"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:text="Phép Tính Số Học"
+        android:textSize="30sp"
+        android:textColor="@color/text"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
 
-        <TextView
-            android:id="@+id/txtA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Số thứ nhất"
-            android:textSize="18dp"
-            android:textColor="#673AB7"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="@color/accent">
 
-        <EditText
-            android:id="@+id/editA"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="text"
-            android:text=""
-            android:hint="Mời nhập 1 số"/>
-    </LinearLayout>
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A:"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editA"
+                android:textColor="@color/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="B:"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editB"
+                android:textColor="@color/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="5dp">
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
 
-        <TextView
-            android:id="@+id/txtB"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Số thứ hai"
-            android:textColor="#673AB7"
-            android:textSize="18dp"
-            android:layout_marginRight="12dp"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCong"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:text="+"
+            android:textSize="24sp"
+            android:textColor="@color/text"
+            app:cornerRadius="12dp"
+            android:backgroundTint="@color/primary"
+            android:onClick="XuLyCong"
+            android:layout_marginEnd="8dp"/>
 
-        <EditText
-            android:id="@+id/editB"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Mời nhập 1 số"
-            android:inputType="text"
-            android:text="" />
-
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTru"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:text="-"
+            android:onClick="XuLyTru"
+            android:textSize="24sp"
+            android:textColor="@color/text"
+            app:cornerRadius="12dp"
+            android:backgroundTint="@color/primary"
+            android:layout_marginStart="8dp"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnCong"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:onClick="XuLyCong"
-            android:text="+" />
-
-        <Button
-            android:id="@+id/btnTru"
-            android:layout_width="wrap_content"
-
-            android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:onClick="XuLyTru"
-            android:text="-" />
-
-        <Button
-            android:id="@+id/btnNhan"
-            android:layout_margin="2dp"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="XuLyNhan"
-            android:text="*" />
-
-        <Button
-            android:id="@+id/btnChia"
-            android:layout_margin="2dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="XuLyChia"
-            android:text="/" />
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="15dp"
         android:orientation="horizontal"
-        android:padding="5dp">
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNhan"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:text="×"
+            android:onClick="XuLyNhan"
+            android:textSize="24sp"
+            android:textColor="@color/text"
+            app:cornerRadius="12dp"
+            android:backgroundTint="@color/primary"
+            android:layout_marginEnd="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChia"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:text="÷"
+            android:onClick="XuLyChia"
+            android:textSize="24sp"
+            android:textColor="@color/text"
+            app:cornerRadius="12dp"
+            android:backgroundTint="@color/primary"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="@color/accent">
 
         <TextView
             android:id="@+id/txtKQ"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:text="Kết quả"
-            android:textColor="#673AB7"
-            android:textSize="18dp" />
-
-        <EditText
-            android:id="@+id/editKQ"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Nơi hiện kết quả"
-            android:inputType="text"
-            android:text=""
-            android:enabled="false"/>
-
-    </LinearLayout>
+            android:text="Kết quả: "
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/text"
+            android:padding="16dp"
+            android:gravity="center"/>
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>
