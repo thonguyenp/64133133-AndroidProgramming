@@ -19,8 +19,8 @@
 - Hình ảnh minh họa:
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./LT9_LVNangCao/KetQua1.PNG" alt="Ex7_IntentLogin2" width="30%"/>
-  <img src="./LT9_LVNangCao/KetQua2.PNG" alt="Ex7_IntentLogin2" width="30%"/>
+  <img src="./LT9_LVNangCao/KetQua1.PNG" alt="Ex7_IntentLogin2" width="20%"/>
+  <img src="./LT9_LVNangCao/KetQua2.PNG" alt="Ex7_IntentLogin2" width="20%"/>
 </div>
 
 ## SOURCES CODE BÀI TẬP THỰC HÀNH
