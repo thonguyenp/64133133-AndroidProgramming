@@ -31,8 +31,8 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - Hình ảnh minh họa:
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./Ex9_DashboardMaterial/KetQua2.PNG" alt="Ex7_IntentLogin1" width="30%"/>
-  <img src="./Ex9_DashboardMaterial/KetQua1.PNG" alt="Ex7_IntentLogin2" width="30%"/>
+  <img src="./Ex9_DashboardMaterial/KetQua2.PNG" alt="Ex7_IntentLogin1" width="25%"/>
+  <img src="./Ex9_DashboardMaterial/KetQua1.PNG" alt="Ex7_IntentLogin2" width="25%"/>
 </div>
 
 ### 🔹 Ex8_LoginPage
