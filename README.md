@@ -105,6 +105,8 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 
   <img src="./HelloWorld/Ketqua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
 
+---
+
 ## CÁC BÀI TẬP LÀM THÊM
 Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh minh họa:
 ### 🔹 LT9_LVNangCao
