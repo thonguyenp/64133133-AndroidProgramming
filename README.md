@@ -23,6 +23,8 @@
   <img src="./LT9_LVNangCao/KetQua2.PNG" alt="Ex7_IntentLogin2" width="20%"/>
 </div>
 
+---
+
 ## SOURCES CODE BÀI TẬP THỰC HÀNH
 Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh minh họa:
 
