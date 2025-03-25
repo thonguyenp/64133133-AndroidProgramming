@@ -5,28 +5,27 @@
 
 ---
 
-## BÀI TẬP MỚI NHẤT (23/03/2025)
-### 🔹 LT9_LVNangCao
-- Tạo class riêng chứa dữ liệu và adapter riêng để truyền dữ liệu lên layout
-- Dùng CardView bọc lấy item để có bo viền và bóng mờ
-- Sử dụng lớp NumberFormat có sẵn để định dạng giá tiền (xxx.xxx.xxx VND)
-- Bộ màu sử dụng:
-- 🔹 **Màu chính (Primary):** `#FF8A65` *(Cam pastel)*
-- 🔹 **Màu phụ (Accent):** `#4DB6AC` *(Xanh mint)*
-- 🔹 **Màu nền (Background):** `#FFF8E1` *(Vàng kem)*
-- 🔹 **Màu chữ (Text):** `#5D4037` *(Nâu đậm)*
-- 📂 [Xem mã nguồn](./LT9_LVNangCao/app/src/main/)
+## BÀI TẬP MỚI NHẤT (25/03/2025)
+### 🔹 Ex10_RecyclerView
+- 📂 [Xem mã nguồn](./Ex10_RecyclerView/app/src/main/)
 - Hình ảnh minh họa:
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./LT9_LVNangCao/KetQua1.PNG" alt="Ex7_IntentLogin2" width="20%"/>
-  <img src="./LT9_LVNangCao/KetQua2.PNG" alt="Ex7_IntentLogin2" width="20%"/>
+  <img src="./Ex10_RecyclerView/KetQua1.PNG" alt="Ex7_IntentLogin2" width="20%"/>
 </div>
 
 ---
 
 ## SOURCES CODE BÀI TẬP THỰC HÀNH
 Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh minh họa:
+
+### 🔹 Ex10_RecyclerView
+- 📂 [Xem mã nguồn](./Ex10_RecyclerView/app/src/main/)
+- Hình ảnh minh họa:
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./Ex10_RecyclerView/KetQua1.PNG" alt="Ex7_IntentLogin2" width="20%"/>
+</div>
 
 ### 🔹 Ex9_DashboardMaterial
 - 📂 [Xem mã nguồn](./Ex9_DashboardMaterial/app/src/main/)
