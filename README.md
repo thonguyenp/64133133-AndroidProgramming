@@ -40,28 +40,28 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - 📂 [Xem mã nguồn](./Ex8_LoginPage/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./Ex8_LoginPage/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./Ex8_LoginPage/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="20%">
 
 ### 🔹 Ex7_IntentLogin
 - 📂 [Xem mã nguồn](./Ex7_IntentLogin/app/src/main/)
 - Hình ảnh minh họa:
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./Ex7_IntentLogin/KetQua1.PNG" alt="Ex7_IntentLogin1" width="30%"/>
-  <img src="./Ex7_IntentLogin/KetQua2.PNG" alt="Ex7_IntentLogin2" width="30%"/>
-  <img src="./Ex7_IntentLogin/KetQua3.PNG" alt="Ex7_IntentLogin3" width="30%"/>
+  <img src="./Ex7_IntentLogin/KetQua1.PNG" alt="Ex7_IntentLogin1" width="20%"/>
+  <img src="./Ex7_IntentLogin/KetQua2.PNG" alt="Ex7_IntentLogin2" width="20%"/>
+  <img src="./Ex7_IntentLogin/KetQua3.PNG" alt="Ex7_IntentLogin3" width="20%"/>
 </div>
 
 ### 🔹 Ex_6_ListViewDemo
 - 📂 [Xem mã nguồn](./Ex_6_ListViewDemo/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./Ex_6_ListViewDemo/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./Ex_6_ListViewDemo/KetQua.PNG" alt="LT4_TestTracNghiem" width="20%" height="20%">
 
 ### 🔹 Ex6_IntentDonGian
 - 📂 [Xem mã nguồn](./Ex6_IntentDonGian/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./Ex6_IntentDonGian/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./Ex6_IntentDonGian/KetQua.PNG" alt="LT4_TestTracNghiem" width="20%" height="20%">
 
 ### 🔹 Ex4,5_AddSubMulDiv
 - Update: Thống nhất 1 layout cho tất cả các bài cộng trừ nhân chia
@@ -78,7 +78,7 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 
 - Hình ảnh minh họa:
 
-  <img src="./Ex5_AddSubMulDiv_Activity/KetQua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./Ex5_AddSubMulDiv_Activity/KetQua.PNG" alt="LT4_TestTracNghiem" width="20%" height="20%">
 
 ### 🔹 Ex3_AppCong
 - 📂 [Xem mã nguồn](./Ex3_AppCong/app/src/main/)
@@ -102,7 +102,7 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 - 📂 [Xem mã nguồn](./HelloWorld/app/src/main/)
 - Hình ảnh minh họa:
 
-  <img src="./HelloWorld/Ketqua.PNG" alt="LT4_TestTracNghiem" width="30%" height="30%">
+  <img src="./HelloWorld/Ketqua.PNG" alt="LT4_TestTracNghiem" width="20%" height="20%">
 
 ---
 
@@ -121,8 +121,8 @@ Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh mi
 - Hình ảnh minh họa:
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./LT9_LVNangCao/KetQua1.PNG" alt="Ex7_IntentLogin2" width="30%"/>
-  <img src="./LT9_LVNangCao/KetQua2.PNG" alt="Ex7_IntentLogin2" width="30%"/>
+  <img src="./LT9_LVNangCao/KetQua1.PNG" alt="Ex7_IntentLogin2" width="20%"/>
+  <img src="./LT9_LVNangCao/KetQua2.PNG" alt="Ex7_IntentLogin2" width="20%"/>
 </div>
 
 
