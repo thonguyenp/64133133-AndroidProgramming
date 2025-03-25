@@ -4,6 +4,13 @@
 Đây là kho lưu trữ chứa các bài thực hành và bài tập bổ sung trong quá trình học lập trình Android. Mã nguồn được đẩy lên nhằm theo dõi tiến trình học
 
 ---
+## Bộ màu thường sử dụng cho các bài sử dụng:
+- 🔹 **Màu chính (Primary):** `#FF8A65` *(Cam pastel)*
+- 🔹 **Màu phụ (Accent):** `#4DB6AC` *(Xanh mint)*
+- 🔹 **Màu phụ tone nhẹ (Lighter Accent):** `#E0F2F1` *(Xanh mint nhẹ, thường để thay thế accent)*
+- 🔹 **Màu nền (Background):** `#FFF8E1` *(Vàng kem)*
+- 🔹 **Màu chữ (Text):** `#5D4037` *(Nâu đậm)*
+---
 
 ## BÀI TẬP MỚI NHẤT (25/03/2025)
 ### 🔹 Ex10_RecyclerView
@@ -20,6 +27,7 @@
 Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh minh họa:
 
 ### 🔹 Ex10_RecyclerView
+- Update: Thay đổi 1 chút về màu sắc trong layout, hoàn thành phần toast khi onclick
 - 📂 [Xem mã nguồn](./Ex10_RecyclerView/app/src/main/)
 - Hình ảnh minh họa:
 
@@ -66,11 +74,6 @@ Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh 
 ### 🔹 Ex4,5_AddSubMulDiv
 - Update: Thống nhất 1 layout cho tất cả các bài cộng trừ nhân chia
 - Sử dụng: CardView và Material Button
-- Bộ màu sử dụng:
-- 🔹 **Màu chính (Primary):** `#FF8A65` *(Cam pastel)*
-- 🔹 **Màu phụ (Accent):** `#4DB6AC` *(Xanh mint)*
-- 🔹 **Màu nền (Background):** `#FFF8E1` *(Vàng kem)*
-- 🔹 **Màu chữ (Text):** `#5D4037` *(Nâu đậm)*
 - 📂 [Xem mã nguồn Activity](./Ex5_AddSubMulDiv_Activity/app/src/main/)
 - 📂 [Xem mã nguồn Onclick](./Ex4_AddSubMulDiv_Onclick/app/src/main/)
 - 📂 [Xem mã nguồn Anonymous](./Ex5_AddSubMulDiv_Anynomous/app/src/main/)
@@ -112,11 +115,6 @@ Dưới đây là danh sách các bài tập làm thêm kèm theo hình ảnh mi
 - Tạo class riêng chứa dữ liệu và adapter riêng để truyền dữ liệu lên layout
 - Dùng CardView bọc lấy item để có bo viền và bóng mờ
 - Sử dụng lớp NumberFormat có sẵn để định dạng giá tiền (xxx.xxx.xxx VND)
-- Bộ màu sử dụng:
-- 🔹 **Màu chính (Primary):** `#FF8A65` *(Cam pastel)*
-- 🔹 **Màu phụ (Accent):** `#4DB6AC` *(Xanh mint)*
-- 🔹 **Màu nền (Background):** `#FFF8E1` *(Vàng kem)*
-- 🔹 **Màu chữ (Text):** `#5D4037` *(Nâu đậm)*
 - 📂 [Xem mã nguồn](./LT9_LVNangCao/app/src/main/)
 - Hình ảnh minh họa:
 

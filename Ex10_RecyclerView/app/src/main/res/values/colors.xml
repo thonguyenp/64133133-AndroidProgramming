@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!--    🔹 Màu chính (Primary): #FF8A65 (Cam pastel)
+
+🔹 Màu phụ (Accent): #4DB6AC (Xanh mint)
+
+🔹 Màu nền (Background): #FFF8E1 (Vàng kem)
+
+🔹 Màu chữ (Text): #5D4037 (Nâu đậm)
+
+-->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primary">#FF8A65</color>
+    <color name="accent">#4DB6AC</color>
+    <color name="background">#FFF8E1</color>
+    <color name="text">#5D4037</color>
+    <color name="accentLighter">#E0F2F1</color>
 </resources>
