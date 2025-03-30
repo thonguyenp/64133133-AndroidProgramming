@@ -33,6 +33,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(ibai1);
             }
         });
+
+        btnBai3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ibai3 = new Intent(MainActivity.this, Bai3Activity.class);
+                startActivity(ibai3);
+
+            }
+        });
     }
 
     void TimView ()
