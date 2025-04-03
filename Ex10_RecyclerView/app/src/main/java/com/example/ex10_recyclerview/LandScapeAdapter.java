@@ -69,7 +69,7 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Item
             super(itemView);
             txtCaption = itemView.findViewById(R.id.txtCaption);
             imgLandFileName = itemView.findViewById(R.id.imgViewLand);
-            itemView.setOnClickListener(this);
+            itemView.setOnClickListener(this::onClick);
         }
 
         @Override

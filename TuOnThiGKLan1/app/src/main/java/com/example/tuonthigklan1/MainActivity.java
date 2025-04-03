@@ -34,6 +34,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnBai2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ibai2 = new Intent(MainActivity.this, Bai2Activity.class);
+                startActivity(ibai2);
+            }
+        });
+
         btnBai3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
