@@ -1,6 +1,7 @@
 package com.example.tuonthigklan1;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,11 +15,9 @@ import java.util.ArrayList;
 
 public class Bai2Activity extends AppCompatActivity {
 
+    ArrayList<LandScape> dsDuLieu;
     LandScapeAdapter landScapeAdapter;
-
-    ArrayList<LandScape> rvData;
-
-    RecyclerView recyclerViewLandScape;
+    RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,13 +29,11 @@ public class Bai2Activity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-        rvData = getDataForRecylerView();
-        recyclerViewLandScape = findViewById(R.id.rv);
-        recyclerViewLandScape.setLayoutManager(new LinearLayoutManager(this));
-        landScapeAdapter = new LandScapeAdapter(this,rvData);
-        recyclerViewLandScape.setAdapter(landScapeAdapter);
-
+        recyclerView = findViewById(R.id.rv);
+        dsDuLieu = getDataForRecylerView();
+        landScapeAdapter = new LandScapeAdapter(Bai2Activity.this,dsDuLieu);
+        recyclerView.setLayoutManager(new LinearLayoutManager(Bai2Activity.this));
+        recyclerView.setAdapter(landScapeAdapter);
     }
 
     ArrayList<LandScape> getDataForRecylerView ()

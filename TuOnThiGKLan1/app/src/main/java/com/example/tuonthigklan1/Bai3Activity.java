@@ -1,5 +1,6 @@
 package com.example.tuonthigklan1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -19,7 +20,7 @@ public class Bai3Activity extends AppCompatActivity {
 
     ListView lv;
     ArrayList<String> dsHoa;
-    ArrayAdapter<String> adapterHoa;
+    ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,15 +35,18 @@ public class Bai3Activity extends AppCompatActivity {
 
         lv = findViewById(R.id.lv);
         dsHoa = new ArrayList<>();
-        dsHoa.add("Hoa Dao");
         dsHoa.add("Hoa Cuc");
         dsHoa.add("Hoa Mai");
-        adapterHoa = new ArrayAdapter<>(Bai3Activity.this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item,dsHoa);
-        lv.setAdapter(adapterHoa);
+        dsHoa.add("Hoa Dao");
+        adapter = new ArrayAdapter<>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item,dsHoa);
+        lv.setAdapter(adapter);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(Bai3Activity.this, "Bạn đã chọn: " + dsHoa.get(i), Toast.LENGTH_SHORT).show();
+                String selectedItem = dsHoa.get(i);
+                Intent ibai3sub = new Intent(Bai3Activity.this, Bai3SubActivity.class);
+                ibai3sub.putExtra("ten",selectedItem);
+                startActivity(ibai3sub);
             }
         });
 

@@ -50,6 +50,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        btnBai4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ibai4 = new Intent(MainActivity.this, Bai4Activity.class);
+                startActivity(ibai4);
+            }
+        });
     }
 
     void TimView ()

@@ -1,6 +1,8 @@
 package com.example.tuonthigklan1;
 
 import android.content.Context;
+import android.content.Intent;
+import android.media.Image;
 import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,11 +18,12 @@ import java.util.ArrayList;
 
 public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.ItemHolder> {
     Context context;
-    ArrayList<LandScape> listData;
 
-    public LandScapeAdapter(Context context, ArrayList<LandScape> listData) {
+    ArrayList<LandScape> dsDuLieu;
+
+    public LandScapeAdapter(Context context, ArrayList<LandScape> dsDuLieu) {
         this.context = context;
-        this.listData = listData;
+        this.dsDuLieu = dsDuLieu;
     }
 
     @NonNull
@@ -32,46 +35,46 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Item
         return holder;
     }
 
-    //lay ra doi tuong de hien thi
     @Override
     public void onBindViewHolder(@NonNull ItemHolder holder, int position) {
-        LandScape item = listData.get(position);
+        LandScape selectedls = dsDuLieu.get(position);
+        String ten = selectedls.getLandCaption();
+        holder.txtCaption.setText(ten);
 
-        String itemCaption = item.getLandCaption();
-        String tenAnh = item.getImgFile();
-
-        holder.caption.setText(itemCaption);
-        //Dat anh
-        String packageName = holder.itemView.getContext().getPackageName();
-        int imgId = holder.itemView.getResources().getIdentifier(tenAnh,"mipmap",packageName);
-        holder.imgFile.setImageResource(imgId);
+        String tenAnh = selectedls.getImgFile();
+        String packageName = context.getPackageName();
+        int imgId = context.getResources().getIdentifier(tenAnh,"mipmap",packageName);
+        holder.img.setImageResource(imgId);
     }
 
     @Override
     public int getItemCount() {
-        return listData.size();
+        return dsDuLieu.size();
     }
 
-    //extends ViewHolder
-    //implement View.OnClickListener
-    class ItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener
+    class ItemHolder extends RecyclerView.ViewHolder
     {
-        TextView caption;
-        ImageView imgFile;
+        TextView txtCaption;
+        ImageView img;
 
         public ItemHolder(@NonNull View itemView) {
             super(itemView);
-            this.caption = itemView.findViewById(R.id.txtCaption);
-            this.imgFile = itemView.findViewById(R.id.imgFileName);
-            itemView.setOnClickListener(this::onClick);
-        }
-
-        @Override
-        public void onClick(View view) {
-            LandScape selectedLandScape = listData.get(getAdapterPosition());
-            String ten = selectedLandScape.getLandCaption();
-            String tenFile = selectedLandScape.getImgFile();
-            Toast.makeText(context, "Ban vua chon: " + ten, Toast.LENGTH_SHORT).show();
+            this.txtCaption = itemView.findViewById(R.id.txtCaption);
+            this.img = itemView.findViewById(R.id.imgFileName);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    LandScape selectedls = dsDuLieu.get(getAdapterPosition());
+                    String ten = selectedls.getLandCaption();
+                    String tenImg = selectedls.getImgFile();
+                    Intent ibai2sub = new Intent(context,Bai2SubActivity.class);
+                    ibai2sub.putExtra("ten",ten);
+                    String packageName = context.getPackageName();
+                    int imgId = context.getResources().getIdentifier(tenImg,"mipmap",packageName);
+                    ibai2sub.putExtra("imgId",imgId);
+                    context.startActivity(ibai2sub);
+                }
+            });
         }
     }
 }

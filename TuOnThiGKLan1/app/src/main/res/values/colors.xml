@@ -3,8 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#FF8A65 </color>
+    <color name="primaryDark">#D84315</color>
     <color name="accent">#4DB6AC </color>
+    <color name="lighteraccent">#E0F2F1</color>
     <color name="background">#FFF8E1 </color>
     <color name="text">#5D4037 </color>
+    <color name="darkText">#3E2723</color>
 
 </resources>
+
