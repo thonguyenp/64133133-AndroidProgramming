@@ -12,19 +12,28 @@
 - 🔹 **Màu chữ (Text):** `#5D4037` *(Nâu đậm)*
 ---
 
-## BÀI TẬP MỚI NHẤT (25/03/2025)
-### 🔹 Ex10_RecyclerView
-- 📂 [Xem mã nguồn](./Ex10_RecyclerView/app/src/main/)
+## BÀI TẬP MỚI NHẤT (16/04/2025)
+### 🔹 Ex11_THS_Fragment_Static
+- 📂 [Xem mã nguồn](./Ex11_THS_Fragment_Static/app/src/main/)
 - Hình ảnh minh họa:
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./Ex10_RecyclerView/KetQua1.PNG" alt="Ex7_IntentLogin2" width="20%"/>
+  <img src="./Ex11_THS_Fragment_Static/KetQua1.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
 </div>
 
 ---
 
 ## SOURCES CODE BÀI TẬP THỰC HÀNH
 Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh minh họa:
+
+### 🔹 Ex11_THS_Fragment_Static
+- 📂 [Xem mã nguồn](./Ex11_THS_Fragment_Static/app/src/main/)
+- Hình ảnh minh họa:
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./Ex11_THS_Fragment_Static/KetQua1.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
+</div>
+
 
 ### 🔹 Ex10_RecyclerView
 - Update: Thay đổi 1 chút về màu sắc trong layout, hoàn thành phần toast khi onclick
