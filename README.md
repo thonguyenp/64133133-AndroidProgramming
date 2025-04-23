@@ -12,15 +12,18 @@
 - 🔹 **Màu chữ (Text):** `#5D4037` *(Nâu đậm)*
 ---
 
-## BÀI TẬP MỚI NHẤT (16/04/2025)
-### 🔹 Ex11_2_THS_Replace_Fragment
-- 📂 [Xem mã nguồn](./Ex11_THS_Fragment_Static/app/src/main/)
+## BÀI TẬP MỚI NHẤT (23/04/2025)
+### 🔹 FinalProject_BasicJapLearning (Level N5) (In Progress)
+- 📂 [Xem mã nguồn](./FinalProject_BasicJapLearning/app/src/main/)
+- Các chức năng:
+- Quiz toàn bộ / 10 câu trắc nghiệm ngẫu nhiên về bản chữ cái
+- Danh sách các chữ Kanji N5 (chưa hoàn thiện)
 - Hình ảnh minh họa:
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./Ex11_2_THS_Replace_Fragment/KetQua1.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
-  <img src="./Ex11_2_THS_Replace_Fragment/KetQua2.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
-  <img src="./Ex11_2_THS_Replace_Fragment/KetQua3.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/KetQua1.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/KetQua2.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/KetQua3.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
 </div>
 
 
