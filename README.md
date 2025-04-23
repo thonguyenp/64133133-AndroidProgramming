@@ -25,16 +25,6 @@
   <img src="./FinalProject_BasicJapLearning/KetQua2.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
   <img src="./FinalProject_BasicJapLearning/KetQua3.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
 </div>
-
-
-### 🔹 Ex11_THS_Fragment_Static
-- 📂 [Xem mã nguồn](./Ex11_THS_Fragment_Static/app/src/main/)
-- Hình ảnh minh họa:
-
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./Ex11_THS_Fragment_Static/KetQua1.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
-</div>
-
 ---
 
 ## SOURCES CODE BÀI TẬP THỰC HÀNH
