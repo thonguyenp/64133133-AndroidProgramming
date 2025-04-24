@@ -30,6 +30,17 @@
 ## SOURCES CODE BÀI TẬP THỰC HÀNH
 Dưới đây là danh sách các bài tập thực hành kèm theo hình ảnh minh họa:
 
+Ex12_BottomNavView
+### 🔹 Ex12_BottomNavView (24/04/2025)
+- 📂 [Xem mã nguồn](./Ex11_THS_Fragment_Static/app/src/main/)
+- Hình ảnh minh họa:
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./Ex12_BottomNavView/KetQua1.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
+  <img src="./Ex12_BottomNavView/KetQua2.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
+  <img src="./Ex12_BottomNavView/KetQua3.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
+</div>
+
 ### 🔹 Ex11_2_THS_Replace_Fragment
 - 📂 [Xem mã nguồn](./Ex11_THS_Fragment_Static/app/src/main/)
 - Hình ảnh minh họa:
