@@ -12,7 +12,7 @@
 - 🔹 **Màu chữ (Text):** `#5D4037` *(Nâu đậm)*
 ---
 
-## BÀI TẬP MỚI NHẤT (23/04/2025)
+## BÀI TẬP MỚI NHẤT (24/04/2025)
 ### 🔹 FinalProject_BasicJapLearning (Level N5) (In Progress)
 - 📂 [Xem mã nguồn](./FinalProject_BasicJapLearning/app/src/main/)
 - Các chức năng:
@@ -26,6 +26,7 @@
   <img src="./FinalProject_BasicJapLearning/KetQua2.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
   <img src="./FinalProject_BasicJapLearning/KetQua3.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
   <img src="./FinalProject_BasicJapLearning/KetQua4.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/KetQua5.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
 </div>
 ---
 
