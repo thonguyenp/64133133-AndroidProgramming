@@ -19,32 +19,48 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="16dp"/>
 
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRomajiTest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Kiểm tra ngẫu nhiên Romaji ➜ Kana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFullTest" />
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnRandomTest"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Kiểm tra 10 chữ ngẫu nhiên"
-        app:layout_constraintTop_toBottomOf="@id/btnFullTest"
-        app:layout_constraintBottom_toTopOf="@+id/btnHistory"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="2dp"
+        android:text="Kiểm tra 10 chữ ngẫu nhiên Kana ➜ Romanji"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="16dp"/>
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRomajiTest" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnHistory"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:text="Xem lịch sử"
-        app:layout_constraintTop_toBottomOf="@id/btnRandomTest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/btnRandomTest" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnKanjiLookup"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Từ điển Kanji"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnHistory" />
 

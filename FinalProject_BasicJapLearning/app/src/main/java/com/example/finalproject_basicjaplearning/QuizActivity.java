@@ -24,6 +24,7 @@ public class QuizActivity extends AppCompatActivity {
     private int currentQuestionIndex = 0;
     private int correctAnswers = 0;
     private boolean isRandom;
+    private boolean isRomajiQuestion;
     private SharedPreferencesHelper prefsHelper;
     private Random random = new Random();
 
@@ -40,6 +41,7 @@ public class QuizActivity extends AppCompatActivity {
         optionButtons[3] = findViewById(R.id.btnOption4);
 
         isRandom = getIntent().getBooleanExtra("isRandom", false);
+        isRomajiQuestion = getIntent().getBooleanExtra("isRomajiQuestion", false);
 
         setupQuestions();
         showNextQuestion();
@@ -63,30 +65,63 @@ public class QuizActivity extends AppCompatActivity {
         }
 
         KanaBank currentKana = questions.get(currentQuestionIndex);
-        tvQuestion.setText(currentKana.hiragana);
 
+        // Thiết lập câu hỏi
+        String questionText;
+        String correctAnswer;
         List<String> options = new ArrayList<>();
-        options.add(currentKana.romaji);
 
-        while (options.size() < 4) {
-            String randomOption = KanaBank.values()[random.nextInt(KanaBank.values().length)].romaji;
-            if (!options.contains(randomOption)) {
-                options.add(randomOption);
+        if (isRomajiQuestion) {
+            questionText = currentKana.romaji;
+            correctAnswer = currentKana.hiragana; // hoặc currentKana.katakana nếu muốn dùng katakana
+            options.add(correctAnswer);
+            while (options.size() < 4) {
+                String randomKana = KanaBank.values()[random.nextInt(KanaBank.values().length)].hiragana;
+                if (!options.contains(randomKana)) {
+                    options.add(randomKana);
+                }
+            }
+        } else {
+            //ngược lại, câu hỏi là hiragana và câu trả lời là romanji
+            questionText = currentKana.hiragana;
+            correctAnswer = currentKana.romaji;
+            options.add(correctAnswer);
+            while (options.size() < 4) {
+                String randomRomaji = KanaBank.values()[random.nextInt(KanaBank.values().length)].romaji;
+                if (!options.contains(randomRomaji)) {
+                    options.add(randomRomaji);
+                }
             }
         }
 
+        tvQuestion.setText(questionText);
         Collections.shuffle(options);
 
         for (int i = 0; i < 4; i++) {
-            optionButtons[i].setText(options.get(i));
-            optionButtons[i].setOnClickListener(v -> checkAnswer(((Button) v).getText().toString(), currentKana.romaji));
+            String option = options.get(i);
+            optionButtons[i].setText(option);
+            optionButtons[i].setOnClickListener(v -> checkAnswer(option, currentKana));
         }
     }
 
-    private void checkAnswer(String selected, String correct) {
-        if (selected.equals(correct)) {
+    private void checkAnswer(String selected, KanaBank currentKana) {
+        boolean isCorrect;
+
+        if (isRomajiQuestion) {
+            // Câu hỏi là romaji, đáp án là hiragana
+            isCorrect = selected.equals(currentKana.hiragana);
+        } else {
+            // Câu hỏi là hiragana, đáp án là romaji
+            isCorrect = selected.equals(currentKana.romaji);
+        }
+
+        if (isCorrect) {
             correctAnswers++;
         }
+
+        // Cập nhật tỉ lệ đúng cho kana này
+        prefsHelper.updateKanaStat(currentKana.hiragana, isCorrect);
+
         currentQuestionIndex++;
         showNextQuestion();
     }

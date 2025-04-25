@@ -17,6 +17,7 @@
 - 📂 [Xem mã nguồn](./FinalProject_BasicJapLearning/app/src/main/)
 - Các chức năng:
 - Quiz toàn bộ / 10 câu trắc nghiệm ngẫu nhiên về bản chữ cái
+- Hiển thị lịch sử tỉ lệ đúng các chữ Kana sau mỗi lần làm trắc nghiệm
 - Danh sách các chữ Kanji N5 (chưa hoàn thiện)
 - Hình ảnh minh họa:
 
@@ -24,6 +25,7 @@
   <img src="./FinalProject_BasicJapLearning/KetQua1.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
   <img src="./FinalProject_BasicJapLearning/KetQua2.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
   <img src="./FinalProject_BasicJapLearning/KetQua3.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/KetQua4.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
 </div>
 ---
 

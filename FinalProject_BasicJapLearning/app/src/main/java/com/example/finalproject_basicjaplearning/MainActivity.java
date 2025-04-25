@@ -14,7 +14,7 @@ import com.google.android.material.button.MaterialButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    private MaterialButton btnFullTest, btnRandomTest, btnHistory, btnKanjiLookup;
+    private MaterialButton btnFullTest, btnRandomTest, btnHistory, btnKanjiLookup, btnRomajiTest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,26 +30,33 @@ public class MainActivity extends AppCompatActivity {
         btnRandomTest = findViewById(R.id.btnRandomTest);
         btnHistory = findViewById(R.id.btnHistory);
         btnKanjiLookup = findViewById(R.id.btnKanjiLookup);
-
+        btnRomajiTest = findViewById(R.id.btnRomajiTest);
 
         btnFullTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startQuiz(false);
+                startQuiz(false,false);
             }
         });
         btnRandomTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startQuiz(true);
+                startQuiz(true,false);
             }
         });
         btnHistory.setOnClickListener(v -> startActivity(new Intent(this, HistoryActivity.class)));
         btnKanjiLookup.setOnClickListener(v -> startActivity(new Intent(this, KanjiActivity.class)));
+        btnRomajiTest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startQuiz(true,true);
+            }
+        });
     }
-    private void startQuiz(boolean isFullTest) {
+    private void startQuiz(boolean isRandom, boolean isRomajiQuestion) {
         Intent intent = new Intent(MainActivity.this, QuizActivity.class);
-        intent.putExtra("isRandom", isFullTest);
+        intent.putExtra("isRandom", isRandom);
+        intent.putExtra("isRomajiQuestion", isRomajiQuestion);
         startActivity(intent);
     }
 

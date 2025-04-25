@@ -9,36 +9,34 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class HistoryActivity extends AppCompatActivity {
+import java.util.Map;
 
+public class HistoryActivity extends AppCompatActivity {
     private TextView tvHistory;
     private SharedPreferencesHelper prefsHelper;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_history);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
-
 
         tvHistory = findViewById(R.id.tvHistory);
         prefsHelper = new SharedPreferencesHelper(this);
 
-        int totalQuestions = prefsHelper.getTotalQuestions();
-        int correctAnswers = prefsHelper.getCorrectAnswers();
+        Map<String, KanaStats> kanaStats = prefsHelper.getAllKanaStats();
+        StringBuilder sb = new StringBuilder();
 
-        if (totalQuestions == 0) {
-            tvHistory.setText("Chưa có dữ liệu lịch sử.");
+        if (kanaStats.isEmpty()) {
+            sb.append("Chưa có dữ liệu lịch sử.");
         } else {
-            int rate = (correctAnswers * 100) / totalQuestions;
-            tvHistory.setText("Tổng số câu đã làm: " + totalQuestions + "\nTỉ lệ đúng: " + rate + "%");
+            sb.append("Tỉ lệ đúng từng chữ Kana:\n");
+            for (Map.Entry<String, KanaStats> entry : kanaStats.entrySet()) {
+                KanaStats stats = entry.getValue();
+                sb.append(entry.getKey()).append(": ").append(String.format("%.2f", stats.getCorrectRate())).append("%\n");
+            }
         }
 
+        tvHistory.setText(sb.toString());
     }
 }
+

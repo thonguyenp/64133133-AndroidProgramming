@@ -34,6 +34,7 @@ android {
 dependencies {
 
     implementation(libs.appcompat)
+    implementation("com.google.code.gson:gson:2.8.8")  // Thêm dòng này
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
