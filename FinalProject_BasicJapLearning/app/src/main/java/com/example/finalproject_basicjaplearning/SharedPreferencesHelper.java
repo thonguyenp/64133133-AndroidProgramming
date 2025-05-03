@@ -69,4 +69,10 @@ public class SharedPreferencesHelper {
     public int getCorrectAnswers() {
         return sharedPreferences.getInt("correctAnswers", 0);
     }
+
+    public void clearKanaStats() {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.clear();
+        editor.apply();
+    }
 }

@@ -2,30 +2,43 @@ package com.example.finalproject_basicjaplearning;
 
 import android.content.Context;
 import android.content.Intent;
+import android.speech.tts.TextToSpeech;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+import java.util.Locale;
 
 public class KanjiAdapter extends RecyclerView.Adapter<KanjiAdapter.KanjiViewHolder> {
 
     Context context;
 
-    private final List<KanjiBank> kanjiList;
+    private List<KanjiBank> kanjiList;
+    private TextToSpeech tts = null;
 
-    public KanjiAdapter(List<KanjiBank> kanjiList) {
+
+
+    public KanjiAdapter(Context context, List<KanjiBank> kanjiList, TextToSpeech tts) {
+        this.context = context;
         this.kanjiList = kanjiList;
+        this.tts = tts;
+    }
+    public void updateData(List<KanjiBank> newList) {
+        this.kanjiList = newList;
+        notifyDataSetChanged();
     }
 
     @NonNull
     @Override
     public KanjiViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        LayoutInflater inflater = LayoutInflater.from(parent.getContext());
+        context = parent.getContext();
+        LayoutInflater inflater = LayoutInflater.from(context);
         View vItem = inflater.inflate(R.layout.item_kanji,parent,false);
         KanjiViewHolder holder = new KanjiViewHolder(vItem);
         return holder;
@@ -46,8 +59,11 @@ public class KanjiAdapter extends RecyclerView.Adapter<KanjiAdapter.KanjiViewHol
         return kanjiList.size();
     }
 
+
+
     class KanjiViewHolder extends RecyclerView.ViewHolder {
         TextView tvKanji, tvHanViet, tvMeaning, tvOnReading, tvKunReading;
+        ImageButton btnSpeak;
 
         public KanjiViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -56,6 +72,7 @@ public class KanjiAdapter extends RecyclerView.Adapter<KanjiAdapter.KanjiViewHol
             tvMeaning = itemView.findViewById(R.id.tvMeaning);
             tvOnReading = itemView.findViewById(R.id.tvOnReading);
             tvKunReading = itemView.findViewById(R.id.tvKunReading);
+
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

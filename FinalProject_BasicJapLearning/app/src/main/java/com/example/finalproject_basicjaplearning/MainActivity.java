@@ -3,6 +3,7 @@ package com.example.finalproject_basicjaplearning;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +16,7 @@ import com.google.android.material.button.MaterialButton;
 public class MainActivity extends AppCompatActivity {
 
     private MaterialButton btnFullTest, btnRandomTest, btnHistory, btnKanjiLookup, btnRomajiTest;
+    Button btnTest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

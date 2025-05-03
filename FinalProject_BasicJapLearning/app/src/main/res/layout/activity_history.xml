@@ -1,20 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/main"
-    android:padding="24dp">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <TextView
-        android:id="@+id/tvHistory"
-        android:layout_width="wrap_content"
+        android:id="@+id/titleHistory"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lịch sử"
-        android:textSize="24sp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        android:text="Lịch sử luyện tập"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerHistory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnClearHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa lịch sử"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btnSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sắp xếp theo tỉ lệ đúng"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

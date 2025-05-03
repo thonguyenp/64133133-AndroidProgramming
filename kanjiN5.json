@@ -1,0 +1,24 @@
+{
+    "KanjiN5": 
+    {
+      "日": {
+        "meaning": "ngày, mặt trời",
+        "onyomi": ["ニチ", "ジツ"],
+        "kunyomi": ["ひ", "-び", "-か"],
+        "examples": ["日本 (にほん) - Nhật Bản", "日曜日 (にちようび) - Chủ nhật"]
+      },
+      "一": {
+        "meaning": "một",
+        "onyomi": ["イチ", "イツ"],
+        "kunyomi": ["ひと-", "ひと.つ"],
+        "examples": ["一人 (ひとり) - Một người", "一日 (いちにち) - Một ngày"]
+      },
+      "国": {
+        "meaning": "quốc gia",
+        "onyomi": ["コク"],
+        "kunyomi": ["くに"],
+        "examples": ["中国 (ちゅうごく) - Trung Quốc", "外国 (がいこく) - Nước ngoài"]
+      }
+    }
+}
+  

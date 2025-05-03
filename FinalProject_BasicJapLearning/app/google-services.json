@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "652010395147",
+    "project_id": "n5kanjiapp-b8cb9",
+    "storage_bucket": "n5kanjiapp-b8cb9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652010395147:android:b62d4ef5d6208c645dd90e",
+        "android_client_info": {
+          "package_name": "com.example.finalproject_basicjaplearning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaWaFDAZz31NbHmQW8NgluBJEa4QICY_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

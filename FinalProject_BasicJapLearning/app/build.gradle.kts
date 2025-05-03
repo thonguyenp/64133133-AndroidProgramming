@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -34,7 +35,13 @@ android {
 dependencies {
 
     implementation(libs.appcompat)
-    implementation("com.google.code.gson:gson:2.8.8")  // Thêm dòng này
+    implementation(platform("com.google.firebase:firebase-bom:33.13.0"))
+    implementation("com.google.firebase:firebase-firestore")
+    implementation ("com.google.firebase:firebase-storage")
+    implementation("com.google.code.gson:gson:2.8.8")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
+    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.27")
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
