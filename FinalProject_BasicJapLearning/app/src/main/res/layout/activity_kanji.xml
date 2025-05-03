@@ -12,6 +12,12 @@
         android:layout_height="wrap_content"
         android:queryHint="Tìm kiếm Kanji, Hán Việt, On/Kun" />
 
+    <Button
+        android:id="@+id/btnDrawKanji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vẽ chữ Kanji"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewKanji"
         android:layout_width="match_parent"

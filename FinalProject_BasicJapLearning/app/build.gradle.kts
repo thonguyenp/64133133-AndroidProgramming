@@ -35,12 +35,8 @@ android {
 dependencies {
 
     implementation(libs.appcompat)
-    implementation(platform("com.google.firebase:firebase-bom:33.13.0"))
-    implementation("com.google.firebase:firebase-firestore")
-    implementation ("com.google.firebase:firebase-storage")
+    implementation("com.github.rmtheis:tess-two:9.1.0")
     implementation("com.google.code.gson:gson:2.8.8")
-    implementation ("com.github.bumptech.glide:glide:4.16.0")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
     implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.27")
     implementation(libs.material)
     implementation(libs.activity)
