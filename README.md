@@ -22,11 +22,11 @@
 - Hình ảnh minh họa:
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./FinalProject_BasicJapLearning/KetQua1.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
-  <img src="./FinalProject_BasicJapLearning/KetQua2.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
-  <img src="./FinalProject_BasicJapLearning/KetQua3.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
-  <img src="./FinalProject_BasicJapLearning/KetQua4.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
-  <img src="./FinalProject_BasicJapLearning/KetQua5.PNG" alt="Ex11_THS_Fragment_Static" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/KetQua1.PNG" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/KetQuaUI1.PNG" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/KetQua3.PNG" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/KetQuaUI2.PNG" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/KetQuaLichSu.PNG" alt="FinalProject_BasicJapLearning" width="20%"/>
 </div>
 ---
 
