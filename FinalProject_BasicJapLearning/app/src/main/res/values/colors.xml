@@ -21,11 +21,7 @@
     <!-- Màu đáp án đúng -->
     <color name="answer_correct_bg">#A5D6A7</color>
     <color name="answer_correct_text">#1B5E20</color>
-
-    <!-- Màu đáp án sai -->
-    <color name="answer_wrong_bg">#F8BBD0</color>
-    <color name="answer_wrong_text">#880E4F</color>
-
+    
     <!-- Màu tiêu đề -->
     <color name="title_bg">#6200EE</color>
     <color name="title_text">#FFFFFF</color>
