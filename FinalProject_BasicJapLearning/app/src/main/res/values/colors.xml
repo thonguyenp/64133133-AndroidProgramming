@@ -2,4 +2,32 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Màu nền tổng thể -->
+    <color name="background_light">#FAFAFA</color>
+
+    <!-- Màu chủ đạo (tím) -->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_dark">#3700B3</color>
+
+    <!-- Màu văn bản chính -->
+    <color name="text_primary">#212121</color>
+    <color name="text_on_purple">#FFFFFF</color>
+
+    <!-- Màu cho nút bình thường -->
+    <color name="button_bg">#FFFFFF</color>
+    <color name="button_stroke">#6200EE</color>
+    <color name="button_text">#6200EE</color>
+
+    <!-- Màu đáp án đúng -->
+    <color name="answer_correct_bg">#A5D6A7</color>
+    <color name="answer_correct_text">#1B5E20</color>
+
+    <!-- Màu đáp án sai -->
+    <color name="answer_wrong_bg">#F8BBD0</color>
+    <color name="answer_wrong_text">#880E4F</color>
+
+    <!-- Màu tiêu đề -->
+    <color name="title_bg">#6200EE</color>
+    <color name="title_text">#FFFFFF</color>
+
 </resources>
