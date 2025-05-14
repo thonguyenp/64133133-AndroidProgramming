@@ -3,7 +3,6 @@ package com.example.finalproject_basicjaplearning;
 public enum KanjiBank {
     KOKU("国", "Quốc", "nước", "コク", "くに"),
     NICHI("日", "Nhật", "ngày", "ニチ", "ひ"),
-
     SHUTSU("出", "Xuất", "ra", "シュツ", "で"),
 
     DO("土", "Thổ", "đất", "ド", "つち"),
@@ -157,14 +156,11 @@ public enum KanjiBank {
     BO("母", "Mẫu", "mẹ", "ボ", "はは"),
 
     TOMO("友", "Hữu", "bạn", "ユウ", "とも");
-    // 👉 Thêm các chữ Kanji N5 khác vào đây nếu bạn muốn
-
     public final String kanji;
     public final String hanViet;
     public final String meaning;
     public final String onReading;
     public final String kunReading;
-
     KanjiBank(String kanji, String hanViet, String meaning, String onReading, String kunReading) {
         this.kanji = kanji;
         this.hanViet = hanViet;
