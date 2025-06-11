@@ -12,21 +12,26 @@
 - 🔹 **Màu chữ (Text):** `#5D4037` *(Nâu đậm)*
 ---
 
-## BÀI TẬP MỚI NHẤT (24/04/2025)
+## BÀI TẬP MỚI NHẤT (11/06/2025)
 ### 🔹 FinalProject_BasicJapLearning (Level N5) (In Progress)
 - 📂 [Xem mã nguồn](./FinalProject_BasicJapLearning/app/src/main/)
 - Các chức năng:
 - Quiz toàn bộ / 10 câu trắc nghiệm ngẫu nhiên về bản chữ cái
 - Hiển thị lịch sử tỉ lệ đúng các chữ Kana sau mỗi lần làm trắc nghiệm
-- Danh sách các chữ Kanji N5 (chưa hoàn thiện)
+- Danh sách các chữ Kanji N5 
+- Nhận diện chữ Kanji dựa trên chữ viết tay
 - Hình ảnh minh họa:
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./FinalProject_BasicJapLearning/KetQua1.PNG" alt="FinalProject_BasicJapLearning" width="20%"/>
-  <img src="./FinalProject_BasicJapLearning/KetQuaUI1.PNG" alt="FinalProject_BasicJapLearning" width="20%"/>
-  <img src="./FinalProject_BasicJapLearning/KetQua3.PNG" alt="FinalProject_BasicJapLearning" width="20%"/>
-  <img src="./FinalProject_BasicJapLearning/KetQuaUI2.PNG" alt="FinalProject_BasicJapLearning" width="20%"/>
-  <img src="./FinalProject_BasicJapLearning/KetQuaLichSu.PNG" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/ManHinhChinh.jpg" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/ManHinhQuizMode.jpg" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/ManHinhTracNghiemQuiz.jpg" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/ManHinhKetQuaTN.jpg" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/ManHinhTiLeChinhXac.jpg" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/ManHinhTuDien.jpg" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/ManHinhChiTietChuHanTu.jpg" alt="FinalProject_BasicJapLearning" width="20%"/>
+  <img src="./FinalProject_BasicJapLearning/ManHinhNhanDienChuKanji.jpg" alt="FinalProject_BasicJapLearning" width="20%"/>
+
 </div>
 ---
 

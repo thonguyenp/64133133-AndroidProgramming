@@ -47,13 +47,15 @@ public class KanjiActivity extends AppCompatActivity {
         // Xử lý tìm kiếm
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
-            public boolean onQueryTextSubmit(String query) {
+            public boolean onQueryTextSubmit(String query) //gọi khi client bấm vào kính lúp
+            {
                 filterKanji(query);
                 return true;
             }
 
             @Override
-            public boolean onQueryTextChange(String newText) {
+            public boolean onQueryTextChange(String newText) //gọi khi người dùng nhập text -> update real-time
+            {
                 filterKanji(newText);
                 return true;
             }

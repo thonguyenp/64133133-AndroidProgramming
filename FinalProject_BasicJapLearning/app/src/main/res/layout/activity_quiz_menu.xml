@@ -7,35 +7,56 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/header_background"
-    tools:context=".MainActivity">
-
-    <!-- Header -->
-    <!-- Full Test and Romaji Test (2 buttons in a row) -->
-
+    tools:context=".QuizMenuActivity"
+    >
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
-        android:text="Ứng Dụng Học Tiếng Nhật Cấp Độ N5"
-        android:layout_marginTop="70dp"
+        android:text="Các Chế Độ Làm Quiz"
         android:textAlignment="center"
         android:textColor="#FFEBEE"
         android:textSize="24sp"
+        android:layout_marginTop="70dp"
         android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
         android:padding="10dp"
-    >
+        android:layout_gravity="center"
+        >
 
         <include
-            layout="@layout/btn_dictionary"
+            layout="@layout/btn_fulltest"
+            />
+        <include
+            layout="@layout/btn_romajitest"
             />
 
-        <include layout="@layout/btn_quiz"/>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+
+        >
+        <include
+            layout="@layout/btn_randomtest"
+            />
+
+        <include
+            layout="@layout/btn_history"
+            />
+    </LinearLayout>
+
+
+
 </LinearLayout>

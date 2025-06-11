@@ -25,10 +25,12 @@ public class SharedPreferencesHelper {
         saveKanaStats(kana, stats);
     }
 
+    //Chuỗi json -> Đối tượng lớp KanaStats
     public KanaStats getKanaStats(String kana) {
         String kanaStatsJson = sharedPreferences.getString(kana, "");
-        if (kanaStatsJson.isEmpty()) {
-            return new KanaStats();
+        if (kanaStatsJson.isEmpty()) //nếu chữ kana đó chưa có dữ liệu
+        {
+            return new KanaStats(); // tạo bộ value gồm correctCount và incorrectCount
         }
         return new Gson().fromJson(kanaStatsJson, KanaStats.class);
     }
@@ -45,7 +47,9 @@ public class SharedPreferencesHelper {
         Map<String, KanaStats> kanaStatsMap = new HashMap<>();
         for (Map.Entry<String, ?> entry : allStats.entrySet()) {
             if (entry.getValue() instanceof String) {
+                //nếu value là string -> đổi value thành đối tượng lớp KanaStats
                 KanaStats stats = new Gson().fromJson((String) entry.getValue(), KanaStats.class);
+                //Đưa đối tượng vừa tạo vào lại value của chính key trùng với key trong kanaStatsMap
                 kanaStatsMap.put(entry.getKey(), stats);
             }
         }
@@ -53,12 +57,12 @@ public class SharedPreferencesHelper {
     }
 
     // Lưu trữ kết quả tổng quan của bài kiểm tra
-    public void saveResult(int totalQuestions, int correctAnswers) {
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putInt("totalQuestions", totalQuestions);
-        editor.putInt("correctAnswers", correctAnswers);
-        editor.apply();
-    }
+//    public void saveResult(int totalQuestions, int correctAnswers) {
+//        SharedPreferences.Editor editor = sharedPreferences.edit();
+//        editor.putInt("totalQuestions", totalQuestions);
+//        editor.putInt("correctAnswers", correctAnswers);
+//        editor.apply();
+//    }
 
     // Lấy tổng số câu hỏi đã làm
     public int getTotalQuestions() {

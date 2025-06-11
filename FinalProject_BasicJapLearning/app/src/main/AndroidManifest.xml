@@ -15,6 +15,9 @@
         android:theme="@style/Theme.FinalProject_BasicJapLearning"
         tools:targetApi="31">
         <activity
+            android:name=".QuizMenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".KanjiRecognition"
             android:exported="false" />
         <activity

@@ -93,6 +93,7 @@ public class HistoryActivity extends AppCompatActivity {
             // Tạo LinkedHashMap mới từ danh sách đã sắp
             Map<String, KanaStats> sortedMap = new LinkedHashMap<>();
             for (Map.Entry<String, KanaStats> entry : kanaStatsList) {
+                //Duyệt hết kanaStatsList và thêm từng cặp key:value vào sortedMap mới tạo
                 sortedMap.put(entry.getKey(), entry.getValue());
             }
 

@@ -151,21 +151,21 @@ public class QuizActivity extends AppCompatActivity {
 
     private void finishQuiz() {
         timerHandler.removeCallbacks(timerRunnable);
-        long endTime = System.currentTimeMillis(); // ⭐ Kết thúc tính giờ
+        long endTime = System.currentTimeMillis(); // Kết thúc tính giờ
         long durationMillis = endTime - startTime;
 
-        int totalQuestions = prefsHelper.getTotalQuestions() + questions.size();
-        int totalCorrect = prefsHelper.getCorrectAnswers() + correctAnswers;
-        prefsHelper.saveResult(totalQuestions, totalCorrect);
+//        int totalQuestions = prefsHelper.getTotalQuestions() + questions.size();
+//        int totalCorrect = prefsHelper.getCorrectAnswers() + correctAnswers;
+//        prefsHelper.saveResult(totalQuestions, totalCorrect);
 
         Intent intent = new Intent(this, ResultActivity.class);
         intent.putExtra("correctAnswers", correctAnswers);
         intent.putExtra("totalQuestions", questions.size());
-        intent.putExtra("durationMillis", durationMillis); // ⭐ Truyền thời gian
+        intent.putExtra("durationMillis", durationMillis); // Truyền thời gian
         intent.putStringArrayListExtra("questions", questionList);
         intent.putStringArrayListExtra("userAnswers", userAnswerList);
         intent.putStringArrayListExtra("correctAnswersList", correctAnswerList);
         startActivity(intent);
-        finish();
+//        finish();
     }
 }

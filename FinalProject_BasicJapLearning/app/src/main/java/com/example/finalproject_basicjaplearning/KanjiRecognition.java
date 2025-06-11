@@ -1,5 +1,8 @@
 package com.example.finalproject_basicjaplearning;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -32,8 +35,6 @@ import java.util.Collections;
 
 
 public class KanjiRecognition extends AppCompatActivity {
-
-
     private TessBaseAPI tessBaseAPI;
     private String dataPath;
     private DrawingView drawingView;
@@ -210,6 +211,8 @@ public class KanjiRecognition extends AppCompatActivity {
             return;
         }
 
+
+
         if (bitmap != null && !bitmap.isRecycled()) {
             // Debug kích thước Bitmap
             Log.d("OCR Debug", "Original bitmap size: " + bitmap.getWidth() + "x" + bitmap.getHeight());
@@ -310,15 +313,28 @@ public class KanjiRecognition extends AppCompatActivity {
                 Toast.makeText(this, "No valid kanji recognized.", Toast.LENGTH_SHORT).show();
                 Log.e("OCR Error", "No valid results from ResultIterator after trying PSM_SINGLE_BLOCK and PSM_AUTO.");
             }
+            if (!results.isEmpty()) {
+                // Lấy ký tự đầu tiên (độ tin cậy cao nhất)
+                String topKanji = results.get(0).text;
+
+                // Sao chép vào clipboard
+                ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+                ClipData clip = ClipData.newPlainText("Recognized Kanji", topKanji);
+                clipboard.setPrimaryClip(clip);
+
+                Toast.makeText(this, "Copied '" + topKanji + "' to clipboard!", Toast.LENGTH_SHORT).show();
+            }
         } else {
             Toast.makeText(this, "Invalid or empty image.", Toast.LENGTH_SHORT).show();
             Log.e("OCR Error", "Bitmap is null or recycled.");
         }
+
     }
 
     // Lấy Bitmap từ DrawingView
     private Bitmap getBitmapFromCanvas() {
         if (drawingView != null) {
+            //Lấy bitmap, nếu khác null thì trả về Bitmap
             Bitmap bitmap = drawingView.getBitmap();
             if (bitmap != null) {
                 return bitmap;

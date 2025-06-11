@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     private MaterialButton btnFullTest, btnRandomTest, btnHistory, btnRomajiTest;
 
-    CardView btnKanjiLookup;
+    CardView btnKanjiLookup, btnQuiz;
 
 
     @Override
@@ -31,40 +31,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        btnFullTest = findViewById(R.id.btnFullTest);
-        btnRandomTest = findViewById(R.id.btnRandomTest);
-        btnHistory = findViewById(R.id.btnHistory);
         btnKanjiLookup = findViewById(R.id.btnKanjiLookup);
-        btnRomajiTest = findViewById(R.id.btnRomajiTest);
+        btnQuiz = findViewById(R.id.btnQuiz);
 
-        btnFullTest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startQuiz(false,false);
-            }
-        });
-        btnRandomTest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startQuiz(true,false);
-            }
-        });
-        btnHistory.setOnClickListener(v -> startActivity(new Intent(this, HistoryActivity.class)));
         btnKanjiLookup.setOnClickListener(v -> startActivity(new Intent(this, KanjiActivity.class)));
-        btnRomajiTest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startQuiz(true,true);
-            }
-        });
+        btnQuiz.setOnClickListener(v -> startActivity(new Intent(this, QuizMenuActivity.class)));
     }
-    private void startQuiz(boolean isRandom, boolean isRomajiQuestion) {
-        Intent intent = new Intent(MainActivity.this, QuizActivity.class);
-        intent.putExtra("isRandom", isRandom);
-        intent.putExtra("isRomajiQuestion", isRomajiQuestion);
-        startActivity(intent);
-    }
-
-
-
 }
