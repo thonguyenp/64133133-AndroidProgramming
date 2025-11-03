@@ -13,7 +13,7 @@
 ---
 
 ## BÀI TẬP MỚI NHẤT (11/06/2025)
-### 🔹 FinalProject_BasicJapLearning (Level N5) (In Progress)
+### 🔹 FinalProject_BasicJapLearning (Level N5) 
 - 📂 [Xem mã nguồn](./FinalProject_BasicJapLearning/app/src/main/)
 - Các chức năng:
 - Quiz toàn bộ / 10 câu trắc nghiệm ngẫu nhiên về bản chữ cái
